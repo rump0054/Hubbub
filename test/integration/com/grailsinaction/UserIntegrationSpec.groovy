@@ -12,8 +12,8 @@ class UserIntegrationSpec extends Specification {
     def "Saving our first user to the database"() {
 
       given: "A brand new user"
-      def joe = new User(loginId: 'joe', password: 'secret',
-                homepage: 'http://www.google.com')
+      def joe = new User(loginId: 'joe', password: 'secret')
+                //homepage: 'http://www.google.com')
 
       when: "the user is saved"
       joe.save()
@@ -27,8 +27,8 @@ class UserIntegrationSpec extends Specification {
     def "Updating a saved user changes its properties"() {
 
       given: "An existing user"
-      def existingUser = new User(loginId: 'joe', password: 'secret',
-                homepage: 'http://www.google.com')
+      def existingUser = new User(loginId: 'joe', password: 'secret')
+                //homepage: 'http://www.google.com')
       existingUser.save(failOnError: true)
 
       when: "A property is changed"
@@ -43,8 +43,8 @@ class UserIntegrationSpec extends Specification {
     def "Deleting an existing user removes it from the databse"() {
 
       given: "An existing user"
-      def user = new User(loginId: 'joe', password: 'secret',
-                  homepage: 'http://www.google.com')
+      def user = new User(loginId: 'joe', password: 'secret')
+                  //homepage: 'http://www.google.com')
       user.save(failOnError: true)
 
       when: "The user is deleted"
@@ -58,8 +58,8 @@ class UserIntegrationSpec extends Specification {
     def "Saving a user with invalid properties causes an error"(){
 
       given: "A user which fails several field validations"
-      def user = new User(loginId: 'joe', password: 'tiny',
-                  homepage: 'not-a-url')
+      def user = new User(loginId: 'joe', password: 'tiny')
+                  //homepage: 'not-a-url')
 
       when: "The user is validated"
       user.validate()
@@ -72,14 +72,14 @@ class UserIntegrationSpec extends Specification {
     def "Recovering from a failed save by fixing invalid properties"() {
 
       given: "A user that has invalid properties"
-      def chuck = new User(loginId: 'Chuck', password: 'tiny',
-                  homepage: 'not-a-url')
+      def chuck = new User(loginId: 'Chuck', password: 'tiny')
+                  //homepage: 'not-a-url')
       assert chuck.save() == null
       assert chuck.hasErrors()
 
       when: "We fix the invalid properties"
       chuck.password = 'fistfist'
-      chuck.homepage = 'http://www.google.com'
+      //chuck.homepage = 'http://www.google.com'
       chuck.validate()
 
       then: "The user saves and validates fine"

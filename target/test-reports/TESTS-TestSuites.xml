@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="0" name="UserIntegrationSpec" package="com.grailsinaction" tests="5" time="1.248" timestamp="2015-01-05T02:50:25">
+  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="0" name="PostIntegrationSpec" package="com.grailsinaction" tests="3" time="1.171" timestamp="2015-01-05T17:52:42">
       <properties />
 
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="0.999" />
+      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Adding posts to user links post to user" time="1.088" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Updating a saved user changes its properties" time="0.031" />
+      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Ensure posts linked to a user can be retrieved" time="0.063" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Deleting an existing user removes it from the databse" time="0.11" />
+      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Exercise tagging several posts with various tags" time="0.02" />
+
+      <system-out><![CDATA[--Output from Adding posts to user links post to user--
+--Output from Ensure posts linked to a user can be retrieved--
+--Output from Exercise tagging several posts with various tags--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Adding posts to user links post to user--
+--Output from Ensure posts linked to a user can be retrieved--
+--Output from Exercise tagging several posts with various tags--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="1" name="UserIntegrationSpec" package="com.grailsinaction" tests="5" time="0.281" timestamp="2015-01-05T17:52:43">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="0.031" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Updating a saved user changes its properties" time="0.016" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Deleting an existing user removes it from the databse" time="0.14" />
 
       <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving a user with invalid properties causes an error" time="0.078" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Recovering from a failed save by fixing invalid properties" time="0.0" />
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Recovering from a failed save by fixing invalid properties" time="0.016" />
 
       <system-out><![CDATA[--Output from Saving our first user to the database--
 --Output from Updating a saved user changes its properties--

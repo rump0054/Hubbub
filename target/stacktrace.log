@@ -37,3 +37,48 @@ grails.validation.ValidationException: Validation Error(s) occurred during save(
 - Field error in object 'com.grailsinaction.User' on field 'homepage': rejected value [http:///www.google.com]; codes [com.grailsinaction.User.homepage.url.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.error.homepage,com.grailsinaction.User.homepage.url.error.java.lang.String,com.grailsinaction.User.homepage.url.error,user.homepage.url.error.com.grailsinaction.User.homepage,user.homepage.url.error.homepage,user.homepage.url.error.java.lang.String,user.homepage.url.error,com.grailsinaction.User.homepage.url.invalid.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.url.invalid.homepage,com.grailsinaction.User.homepage.url.invalid.java.lang.String,com.grailsinaction.User.homepage.url.invalid,user.homepage.url.invalid.com.grailsinaction.User.homepage,user.homepage.url.invalid.homepage,user.homepage.url.invalid.java.lang.String,user.homepage.url.invalid,url.invalid.com.grailsinaction.User.homepage,url.invalid.homepage,url.invalid.java.lang.String,url.invalid]; arguments [homepage,class com.grailsinaction.User,http:///www.google.com]; default message [Property [{0}] of class [{1}] with value [{2}] is not a valid URL]
 
 	at com.grailsinaction.UserIntegrationSpec.Deleting an existing user removes it from the databse(UserIntegrationSpec.groovy:48)
+2015-01-05 08:15:17,165 [FileSystemWatcher: files=#203 cl=groovy.lang.GroovyClassLoader@14cb754f] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [posts] for class [class com.grailsinaction.User]
+	at org.codehaus.groovy.grails.commons.DefaultGrailsDomainClass.getPropertyByName(DefaultGrailsDomainClass.java:665)
+	at org.codehaus.groovy.grails.commons.GrailsDomainConfigurationUtil.configureDomainClassRelationships(GrailsDomainConfigurationUtil.java:161)
+	at org.codehaus.groovy.grails.commons.DomainClassArtefactHandler.initialize(DomainClassArtefactHandler.java:64)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.initializeArtefacts(DefaultGrailsApplication.java:624)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.initializeArtefacts(DefaultGrailsApplication.java:597)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.addArtefact(DefaultGrailsApplication.java:828)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.addArtefact(DefaultGrailsApplication.java:538)
+	at org.codehaus.groovy.grails.commons.GrailsApplication$addArtefact$1.call(Unknown Source)
+	at org.codehaus.groovy.grails.plugins.DomainClassGrailsPlugin$_closure3.doCall(DomainClassGrailsPlugin.groovy:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1260)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1086)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:910)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:409)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:263)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:124)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1664)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:397)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-05 08:15:17,180 [FileSystemWatcher: files=#203 cl=groovy.lang.GroovyClassLoader@14cb754f] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [posts] for class [class com.grailsinaction.User]
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-05 08:15:17,180 [FileSystemWatcher: files=#203 cl=groovy.lang.GroovyClassLoader@14cb754f] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [posts] for class [class com.grailsinaction.User]
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-05 08:15:17,180 [FileSystemWatcher: files=#203 cl=groovy.lang.GroovyClassLoader@14cb754f] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.InvalidPropertyException: No property found for name [posts] for class [class com.grailsinaction.User]
+	at java.lang.Thread.run(Thread.java:662)
