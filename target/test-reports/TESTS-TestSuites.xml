@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="0" name="UserIntegrationSpec" package="com.grailsinaction" tests="5" time="1.248" timestamp="2015-01-05T02:50:25">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="0.999" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Updating a saved user changes its properties" time="0.031" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Deleting an existing user removes it from the databse" time="0.11" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving a user with invalid properties causes an error" time="0.078" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Recovering from a failed save by fixing invalid properties" time="0.0" />
+
+      <system-out><![CDATA[--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+--Output from Deleting an existing user removes it from the databse--
+--Output from Saving a user with invalid properties causes an error--
+--Output from Recovering from a failed save by fixing invalid properties--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+--Output from Deleting an existing user removes it from the databse--
+--Output from Saving a user with invalid properties causes an error--
+--Output from Recovering from a failed save by fixing invalid properties--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+Testsuite: com.grailsinaction.UserIntegrationSpec
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 1.248 sec
+------------- Standard Output ---------------
+--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+--Output from Deleting an existing user removes it from the databse--
+--Output from Saving a user with invalid properties causes an error--
+--Output from Recovering from a failed save by fixing invalid properties--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+--Output from Deleting an existing user removes it from the databse--
+--Output from Saving a user with invalid properties causes an error--
+--Output from Recovering from a failed save by fixing invalid properties--
+------------- ---------------- ---------------
+
+Testcase: Saving our first user to the database took 0.999 sec
+Testcase: Updating a saved user changes its properties took 0.031 sec
+Testcase: Deleting an existing user removes it from the databse took 0.11 sec
+Testcase: Saving a user with invalid properties causes an error took 0.078 sec
+Testcase: Recovering from a failed save by fixing invalid properties took 0 sec

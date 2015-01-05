@@ -1,0 +1,5 @@
+--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+--Output from Deleting an existing user removes it from the databse--
+--Output from Saving a user with invalid properties causes an error--
+--Output from Recovering from a failed save by fixing invalid properties--
