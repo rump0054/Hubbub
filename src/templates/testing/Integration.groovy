@@ -2,9 +2,6 @@
 
 import spock.lang.*
 
-/**
- *
- */
 class @artifact.name@ extends Specification {
 
     def setup() {
