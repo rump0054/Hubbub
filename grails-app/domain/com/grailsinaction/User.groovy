@@ -6,7 +6,7 @@ class User {
   Date dateCreated
 
   static hasOne = [ profile: Profile ]
-  static hasMany = [ posts: Post, tags: Tag ]
+  static hasMany = [ posts: Post, tags: Tag, following: User ]
 
     static constraints = {
       loginId size: 3..20, unique: true, nullable: false
@@ -19,4 +19,7 @@ class User {
   static mapping = {
     posts sort: 'dateCreated'
   }
+
+    String toString() { return "User $loginId (id: $id)" }
+    String getDisplayString() { return loginId }
 }
