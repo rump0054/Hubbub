@@ -16,12 +16,12 @@ body {
     background-image: -ms-linear-gradient(top, rgb(120,120,240) 5%, rgb(6,3,82) 100%, rgb(36,36,171) 100%);
 
     background-image: -webkit-gradient(
-	linear,
-	left top,
-	left bottom,
-	color-stop(0.05, rgb(120,120,240)),
-	color-stop(1, rgb(6,3,82)),
-	color-stop(1, rgb(36,36,171))
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, rgb(120,120,240)),
+    color-stop(1, rgb(6,3,82)),
+    color-stop(1, rgb(36,36,171))
     );
 }
 
@@ -116,6 +116,14 @@ dd {
     margin: 4px;
 }
 
+.flash {
+    background: #FFD;
+    border: 1px solid black;
+    color: black;
+    padding: 1em;
+    margin: 1em;
+}
+
 .errors {
     background: lightpink;
     border: 1px dotted red;
@@ -124,4 +132,3 @@ dd {
     margin: 1em;
     font-weight: bold;
 }
-

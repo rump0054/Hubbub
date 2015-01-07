@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="TOSHIBA" name="com.grailsinaction.PostControllerSpec" tests="4" time="6.973" timestamp="2015-01-07T23:14:43">
+  <properties />
+  <testcase classname="com.grailsinaction.PostControllerSpec" name="Get a users timeline given their id" time="5.663" />
+  <testcase classname="com.grailsinaction.PostControllerSpec" name="Check that non-existent users are handled with an error" time="0.561">
+    <error message="No such property: resonse for class: com.grailsinaction.PostController&#xa;Possible solutions: response" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: resonse for class: com.grailsinaction.PostController
+Possible solutions: response
+	at com.grailsinaction.PostController.timeline(PostController.groovy:9)
+	at com.grailsinaction.PostControllerSpec.Check that non-existent users are handled with an error(PostControllerSpec.groovy:40)
+</error>
+  </testcase>
+  <testcase classname="com.grailsinaction.PostControllerSpec" name="Adding a valid new post to the timeline" time="0.562" />
+  <testcase classname="com.grailsinaction.PostControllerSpec" name="Adding an invalid new post to the timeline" time="0.14" />
+  <system-out><![CDATA[--Output from Get a users timeline given their id--
+--Output from Check that non-existent users are handled with an error--
+--Output from Adding a valid new post to the timeline--
+--Output from Adding an invalid new post to the timeline--
+]]></system-out>
+  <system-err><![CDATA[--Output from Get a users timeline given their id--
+--Output from Check that non-existent users are handled with an error--
+--Output from Adding a valid new post to the timeline--
+--Output from Adding an invalid new post to the timeline--
+]]></system-err>
+</testsuite>

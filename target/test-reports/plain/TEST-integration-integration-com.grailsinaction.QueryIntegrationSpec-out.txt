@@ -1,5 +1,0 @@
---Output from Simple property comparison--
---Output from Multiple criteria--
---Output from Query on association--
---Output from Query against a range value--
---Output from Retrieve a single instance--

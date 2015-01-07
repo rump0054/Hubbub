@@ -1,0 +1,27 @@
+Testsuite: com.grailsinaction.PostControllerSpec
+Tests run: 4, Failures: 0, Errors: 1, Time elapsed: 6.973 sec
+------------- Standard Output ---------------
+--Output from Get a users timeline given their id--
+--Output from Check that non-existent users are handled with an error--
+--Output from Adding a valid new post to the timeline--
+--Output from Adding an invalid new post to the timeline--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Get a users timeline given their id--
+--Output from Check that non-existent users are handled with an error--
+--Output from Adding a valid new post to the timeline--
+--Output from Adding an invalid new post to the timeline--
+------------- ---------------- ---------------
+
+Testcase: Get a users timeline given their id took 5.663 sec
+Testcase: Check that non-existent users are handled with an error took 0.53 sec
+	Caused an ERROR
+No such property: resonse for class: com.grailsinaction.PostController
+Possible solutions: response
+groovy.lang.MissingPropertyException: No such property: resonse for class: com.grailsinaction.PostController
+Possible solutions: response
+	at com.grailsinaction.PostController.timeline(PostController.groovy:9)
+	at com.grailsinaction.PostControllerSpec.Check that non-existent users are handled with an error(PostControllerSpec.groovy:40)
+
+Testcase: Adding a valid new post to the timeline took 0.562 sec
+Testcase: Adding an invalid new post to the timeline took 0.14 sec
