@@ -6,7 +6,11 @@ class Tag {
 
   static hasMany = [ posts: Post ]
   static belongsTo = [ User, Post ]
-    static constraints = {
-      name blank: false
-    }
+    
+  static constraints = {
+    name blank: false
+  }
+
+  String toString() { return "Tag $name (id: $id)" }
+  String getDisplayString() { return name }
 }
