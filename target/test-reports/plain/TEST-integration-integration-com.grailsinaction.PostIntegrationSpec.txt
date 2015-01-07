@@ -1,5 +1,5 @@
 Testsuite: com.grailsinaction.PostIntegrationSpec
-Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 1.171 sec
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.592 sec
 ------------- Standard Output ---------------
 --Output from Adding posts to user links post to user--
 --Output from Ensure posts linked to a user can be retrieved--
@@ -11,6 +11,6 @@ Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 1.171 sec
 --Output from Exercise tagging several posts with various tags--
 ------------- ---------------- ---------------
 
-Testcase: Adding posts to user links post to user took 1.088 sec
-Testcase: Ensure posts linked to a user can be retrieved took 0.063 sec
-Testcase: Exercise tagging several posts with various tags took 0.02 sec
+Testcase: Adding posts to user links post to user took 0.546 sec
+Testcase: Ensure posts linked to a user can be retrieved took 0.031 sec
+Testcase: Exercise tagging several posts with various tags took 0.015 sec
