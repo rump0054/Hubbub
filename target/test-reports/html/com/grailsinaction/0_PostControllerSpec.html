@@ -35,17 +35,15 @@
 </nav>
 </div>
 <div class="clear"></div>
-<div class="testsuite error">
+<div class="testsuite success">
 <div class="header">
 <h2>PostControllerSpec</h2>
 <h3>
                         Executed
-                        4
+                        6
                         tests
                     
-                        with
-                        one error
-                        .
+                        without a single error or failure!
                     </h3>
 </div>
 <div class="testcase clearfix success grid_8 alpha omega" data-name="Get a users timeline given their id">
@@ -53,31 +51,19 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Get a users timeline given their id</b>
 </p>
-<p class="summary">Executed in 5.663 seconds.</p>
+<p class="summary">Executed in 5.417 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
-<div class="testcase clearfix error grid_8 alpha omega" data-name="Check that non-existent users are handled with an error">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Check that non-existent users are handled with an error">
 <div class="grid_3 alpha">
 <p>
-<span class="icon error"></span><b class="testname message error">Check that non-existent users are handled with an error</b>
+<span class="icon success"></span><b class="testname message success">Check that non-existent users are handled with an error</b>
 </p>
-<p class="summary">Executed in 0.561 seconds.</p>
+<p class="summary">Executed in 0.138 seconds.</p>
 </div>
-<div class="grid_5 omega outputinfo">
-<div class="details">
-<p>
-<b class="message">No such property: resonse for class: com.grailsinaction.PostController
-Possible solutions: response</b>
-</p>
-<pre>groovy.lang.MissingPropertyException: No such property: resonse for class: com.grailsinaction.PostController
-Possible solutions: response
-	at com.grailsinaction.PostController.timeline(PostController.groovy:9)
-	at com.grailsinaction.PostControllerSpec.Check that non-existent users are handled with an error(PostControllerSpec.groovy:40)
-</pre>
-</div>
-</div>
+<div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
 <div class="testcase clearfix success grid_8 alpha omega" data-name="Adding a valid new post to the timeline">
@@ -85,7 +71,7 @@ Possible solutions: response
 <p>
 <span class="icon success"></span><b class="testname message success">Adding a valid new post to the timeline</b>
 </p>
-<p class="summary">Executed in 0.562 seconds.</p>
+<p class="summary">Executed in 0.845 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -95,7 +81,27 @@ Possible solutions: response
 <p>
 <span class="icon success"></span><b class="testname message success">Adding an invalid new post to the timeline</b>
 </p>
-<p class="summary">Executed in 0.14 seconds.</p>
+<p class="summary">Executed in 0.185 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Testing id of joe_cool redirects to /post/timeline/joe_cool">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Testing id of joe_cool redirects to /post/timeline/joe_cool</b>
+</p>
+<p class="summary">Executed in 0.104 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Testing id of null redirects to /post/timeline/chuck_norris">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Testing id of null redirects to /post/timeline/chuck_norris</b>
+</p>
+<p class="summary">Executed in 0.124 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -107,6 +113,8 @@ Possible solutions: response
 --Output from Check that non-existent users are handled with an error--
 --Output from Adding a valid new post to the timeline--
 --Output from Adding an invalid new post to the timeline--
+--Output from Testing id of joe_cool redirects to /post/timeline/joe_cool--
+--Output from Testing id of null redirects to /post/timeline/chuck_norris--
 </pre>
 </div>
 <div class="syserr">
@@ -115,6 +123,8 @@ Possible solutions: response
 --Output from Check that non-existent users are handled with an error--
 --Output from Adding a valid new post to the timeline--
 --Output from Adding an invalid new post to the timeline--
+--Output from Testing id of joe_cool redirects to /post/timeline/joe_cool--
+--Output from Testing id of null redirects to /post/timeline/chuck_norris--
 </pre>
 </div>
 </div>

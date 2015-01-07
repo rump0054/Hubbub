@@ -5781,3 +5781,35 @@ groovy.lang.MissingPropertyException: No such property: resonse for class: com.g
 Possible solutions: response
 	at com.grailsinaction.PostController.timeline(PostController.groovy:9)
 	at com.grailsinaction.PostControllerSpec.Check that non-existent users are handled with an error(PostControllerSpec.groovy:40)
+2015-01-07 15:19:31,760 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: resonse for class: com.grailsinaction.PostController
+Possible solutions: response
+	at org.codehaus.groovy.grails.plugins.web.api.ControllerTagLibraryApi.propertyMissing(ControllerTagLibraryApi.java:115)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at com.grailsinaction.PostController.timeline(PostController.groovy:9)
+	at com.grailsinaction.PostControllerSpec.Check that non-existent users are handled with an error(PostControllerSpec.groovy:40)
+2015-01-07 15:19:31,838 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: resonse for class: com.grailsinaction.PostController
+Possible solutions: response
+	at com.grailsinaction.PostController.timeline(PostController.groovy:9)
+	at com.grailsinaction.PostControllerSpec.Check that non-existent users are handled with an error(PostControllerSpec.groovy:40)
+2015-01-07 15:19:31,838 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: resonse for class: com.grailsinaction.PostController
+Possible solutions: response
+	at com.grailsinaction.PostController.timeline(PostController.groovy:9)
+	at com.grailsinaction.PostControllerSpec.Check that non-existent users are handled with an error(PostControllerSpec.groovy:40)
+2015-01-07 15:19:31,838 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: resonse for class: com.grailsinaction.PostController
+Possible solutions: response
+	at com.grailsinaction.PostController.timeline(PostController.groovy:9)
+	at com.grailsinaction.PostControllerSpec.Check that non-existent users are handled with an error(PostControllerSpec.groovy:40)
+2015-01-07 15:19:32,150 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: resonse for class: com.grailsinaction.PostController
+Possible solutions: response
+	at com.grailsinaction.PostController.timeline(PostController.groovy:9)
+	at com.grailsinaction.PostControllerSpec.Check that non-existent users are handled with an error(PostControllerSpec.groovy:40)
+2015-01-07 15:19:32,150 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: resonse for class: com.grailsinaction.PostController
+Possible solutions: response
+	at com.grailsinaction.PostController.timeline(PostController.groovy:9)
+	at com.grailsinaction.PostControllerSpec.Check that non-existent users are handled with an error(PostControllerSpec.groovy:40)
