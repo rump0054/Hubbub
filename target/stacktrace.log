@@ -5813,3 +5813,51 @@ groovy.lang.MissingPropertyException: No such property: resonse for class: com.g
 Possible solutions: response
 	at com.grailsinaction.PostController.timeline(PostController.groovy:9)
 	at com.grailsinaction.PostControllerSpec.Check that non-existent users are handled with an error(PostControllerSpec.groovy:40)
+2015-01-07 18:32:19,728 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method createPost() on null object
+	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:60)
+2015-01-07 18:32:19,760 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method createPost() on null object
+	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:60)
+2015-01-07 18:32:19,760 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method createPost() on null object
+	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:60)
+2015-01-07 18:32:19,760 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method createPost() on null object
+	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:60)
+2015-01-07 18:32:20,056 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method createPost() on null object
+	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:60)
+2015-01-07 18:32:20,056 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method createPost() on null object
+	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:60)
+2015-01-07 18:32:20,165 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method createPost() on null object
+	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:80)
+2015-01-07 18:32:20,165 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method createPost() on null object
+	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:80)
+2015-01-07 18:32:20,165 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method createPost() on null object
+	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:80)
+2015-01-07 18:32:20,165 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method createPost() on null object
+	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:80)
+2015-01-07 18:32:20,165 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method createPost() on null object
+	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:80)
+2015-01-07 18:32:20,165 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot invoke method createPost() on null object
+	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:80)
