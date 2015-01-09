@@ -35,5 +35,7 @@
 				<div id="footerText">Hubbub - Social Networking on Grails</div>
 			</div>
 		</div>
+
+		<r:layoutResources />
 	</body>
 </html>

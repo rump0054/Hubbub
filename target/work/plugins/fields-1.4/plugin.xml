@@ -1,0 +1,12 @@
+<plugin name='fields' version='1.4' grailsVersion='2.0 &gt; *'>
+  <author>Rob Fletcher</author>
+  <authorEmail>rob@freeside.co</authorEmail>
+  <title>Fields Plugin</title>
+  <description>Customizable form-field rendering based on overrideable GSP template</description>
+  <documentation>http://freeside.co/grails-fields</documentation>
+  <type>FieldsGrailsPlugin</type>
+  <resources>
+    <resource>grails.plugin.formfields.FormFieldsTemplateService</resource>
+    <resource>grails.plugin.formfields.FormFieldsTagLib</resource>
+  </resources>
+</plugin>
