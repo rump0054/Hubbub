@@ -2,7 +2,7 @@
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>
-                    Test - PostControllerSpec</title>
+                    Test - PostServiceSpec</title>
 <link rel="shortcut icon" href="http://grails.org/images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" title="Style" href="../../stylesheet.css">
 </head>
@@ -12,7 +12,7 @@
 <a title="Home" href="../../index.html">
 <div class="grailslogo"></div>
 </a>
-<h1>PostControllerSpec</h1>
+<h1>PostServiceSpec</h1>
 <h2>Package: com.grailsinaction</h2>
 </div>
 <div class="grid_2">
@@ -37,51 +37,31 @@
 <div class="clear"></div>
 <div class="testsuite success">
 <div class="header">
-<h2>PostControllerSpec</h2>
+<h2>PostServiceSpec</h2>
 <h3>
                         Executed
-                        4
+                        2
                         tests
                     
                         without a single error or failure!
                     </h3>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Get a users timeline given their id">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Valid posts get saved and added to the user">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">Get a users timeline given their id</b>
+<span class="icon success"></span><b class="testname message success">Valid posts get saved and added to the user</b>
 </p>
-<p class="summary">Executed in 3.769 seconds.</p>
+<p class="summary">Executed in 0.172 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Check that non-existent users are handled with an error">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Invalid posts generate exceptional outcomes">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">Check that non-existent users are handled with an error</b>
+<span class="icon success"></span><b class="testname message success">Invalid posts generate exceptional outcomes</b>
 </p>
-<p class="summary">Executed in 0.14 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Adding a valid new post to the timeline">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">Adding a valid new post to the timeline</b>
-</p>
-<p class="summary">Executed in 0.499 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Adding an invalid new post to the timeline">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">Adding an invalid new post to the timeline</b>
-</p>
-<p class="summary">Executed in 0.187 seconds.</p>
+<p class="summary">Executed in 0.062 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -89,18 +69,14 @@
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from Get a users timeline given their id--
---Output from Check that non-existent users are handled with an error--
---Output from Adding a valid new post to the timeline--
---Output from Adding an invalid new post to the timeline--
+<pre class="stdout">--Output from Valid posts get saved and added to the user--
+--Output from Invalid posts generate exceptional outcomes--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from Get a users timeline given their id--
---Output from Check that non-existent users are handled with an error--
---Output from Adding a valid new post to the timeline--
---Output from Adding an invalid new post to the timeline--
+<pre class="syserr">--Output from Valid posts get saved and added to the user--
+--Output from Invalid posts generate exceptional outcomes--
 </pre>
 </div>
 </div>

@@ -2,5 +2,3 @@
 --Output from Check that non-existent users are handled with an error--
 --Output from Adding a valid new post to the timeline--
 --Output from Adding an invalid new post to the timeline--
---Output from Testing id of joe_cool redirects to /post/timeline/joe_cool--
---Output from Testing id of null redirects to /post/timeline/chuck_norris--

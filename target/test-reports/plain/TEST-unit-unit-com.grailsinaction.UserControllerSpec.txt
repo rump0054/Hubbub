@@ -1,0 +1,22 @@
+Testsuite: com.grailsinaction.UserControllerSpec
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 1.123 sec
+------------- Standard Output ---------------
+--Output from Registering a user with known good parameters--
+--Output from Registration command object for glen validate correctly--
+--Output from Registration command object for peter validate correctly--
+--Output from Registration command object for a validate correctly--
+--Output from Invoking the new register action via a command object--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Registering a user with known good parameters--
+--Output from Registration command object for glen validate correctly--
+--Output from Registration command object for peter validate correctly--
+--Output from Registration command object for a validate correctly--
+--Output from Invoking the new register action via a command object--
+------------- ---------------- ---------------
+
+Testcase: Registering a user with known good parameters took 0.405 sec
+Testcase: Registration command object for glen validate correctly took 0.25 sec
+Testcase: Registration command object for peter validate correctly took 0.156 sec
+Testcase: Registration command object for a validate correctly took 0.14 sec
+Testcase: Invoking the new register action via a command object took 0.172 sec

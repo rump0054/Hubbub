@@ -1,0 +1,5 @@
+--Output from Registering a user with known good parameters--
+--Output from Registration command object for glen validate correctly--
+--Output from Registration command object for peter validate correctly--
+--Output from Registration command object for a validate correctly--
+--Output from Invoking the new register action via a command object--

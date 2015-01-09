@@ -1,46 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="2" failures="0" hostname="TOSHIBA" id="0" name="PostControllerSpec" package="com.grailsinaction" tests="6" time="7.18" timestamp="2015-01-08T02:32:13">
+  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="0" name="PostControllerSpec" package="com.grailsinaction" tests="4" time="4.83" timestamp="2015-01-09T03:55:44">
       <properties />
 
-      <testcase classname="com.grailsinaction.PostControllerSpec" name="Get a users timeline given their id" time="5.527" />
+      <testcase classname="com.grailsinaction.PostControllerSpec" name="Get a users timeline given their id" time="3.769" />
 
-      <testcase classname="com.grailsinaction.PostControllerSpec" name="Check that non-existent users are handled with an error" time="0.156" />
+      <testcase classname="com.grailsinaction.PostControllerSpec" name="Check that non-existent users are handled with an error" time="0.14" />
 
-      <testcase classname="com.grailsinaction.PostControllerSpec" name="Adding a valid new post to the timeline" time="0.827">
-          <error message="Cannot invoke method createPost() on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke method createPost() on null object
-	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
-	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:60)
-</error>
+      <testcase classname="com.grailsinaction.PostControllerSpec" name="Adding a valid new post to the timeline" time="0.499" />
 
-      </testcase>
-
-      <testcase classname="com.grailsinaction.PostControllerSpec" name="Adding an invalid new post to the timeline" time="0.124">
-          <error message="Cannot invoke method createPost() on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke method createPost() on null object
-	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
-	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:80)
-</error>
-
-      </testcase>
-
-      <testcase classname="com.grailsinaction.PostControllerSpec" name="Testing id of joe_cool redirects to /post/timeline/joe_cool" time="0.39" />
-
-      <testcase classname="com.grailsinaction.PostControllerSpec" name="Testing id of null redirects to /post/timeline/chuck_norris" time="0.11" />
+      <testcase classname="com.grailsinaction.PostControllerSpec" name="Adding an invalid new post to the timeline" time="0.187" />
 
       <system-out><![CDATA[--Output from Get a users timeline given their id--
 --Output from Check that non-existent users are handled with an error--
 --Output from Adding a valid new post to the timeline--
 --Output from Adding an invalid new post to the timeline--
---Output from Testing id of joe_cool redirects to /post/timeline/joe_cool--
---Output from Testing id of null redirects to /post/timeline/chuck_norris--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from Get a users timeline given their id--
 --Output from Check that non-existent users are handled with an error--
 --Output from Adding a valid new post to the timeline--
 --Output from Adding an invalid new post to the timeline--
---Output from Testing id of joe_cool redirects to /post/timeline/joe_cool--
---Output from Testing id of null redirects to /post/timeline/chuck_norris--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="1" name="PostServiceSpec" package="com.grailsinaction" tests="2" time="0.437" timestamp="2015-01-09T03:55:49">
+      <properties />
+
+      <testcase classname="com.grailsinaction.PostServiceSpec" name="Valid posts get saved and added to the user" time="0.172" />
+
+      <testcase classname="com.grailsinaction.PostServiceSpec" name="Invalid posts generate exceptional outcomes" time="0.062" />
+
+      <system-out><![CDATA[--Output from Valid posts get saved and added to the user--
+--Output from Invalid posts generate exceptional outcomes--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Valid posts get saved and added to the user--
+--Output from Invalid posts generate exceptional outcomes--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="2" name="UserControllerSpec" package="com.grailsinaction" tests="5" time="1.123" timestamp="2015-01-09T03:55:49">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserControllerSpec" name="Registering a user with known good parameters" time="0.405" />
+
+      <testcase classname="com.grailsinaction.UserControllerSpec" name="Registration command object for glen validate correctly" time="0.25" />
+
+      <testcase classname="com.grailsinaction.UserControllerSpec" name="Registration command object for peter validate correctly" time="0.156" />
+
+      <testcase classname="com.grailsinaction.UserControllerSpec" name="Registration command object for a validate correctly" time="0.14" />
+
+      <testcase classname="com.grailsinaction.UserControllerSpec" name="Invoking the new register action via a command object" time="0.172" />
+
+      <system-out><![CDATA[--Output from Registering a user with known good parameters--
+--Output from Registration command object for glen validate correctly--
+--Output from Registration command object for peter validate correctly--
+--Output from Registration command object for a validate correctly--
+--Output from Invoking the new register action via a command object--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Registering a user with known good parameters--
+--Output from Registration command object for glen validate correctly--
+--Output from Registration command object for peter validate correctly--
+--Output from Registration command object for a validate correctly--
+--Output from Invoking the new register action via a command object--
 ]]></system-err>
 
   </testsuite>

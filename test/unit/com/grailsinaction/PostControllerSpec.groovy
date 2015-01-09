@@ -6,7 +6,7 @@ import spock.lang.Specification
 import spock.lang.Unroll
 
 @TestFor(PostController)
-@Mock([User, Post, LameSecurityFilters])
+@Mock([User, Post])
 class PostControllerSpec extends Specification {
 
     def "Get a users timeline given their id"() {
@@ -55,11 +55,7 @@ class PostControllerSpec extends Specification {
 
         then: "redirected to timeline, flash message tells us all is well"
         flash.message ==~ /Added new post: Mock.*/
-        response.redirectedUrl == '/users/joe_cool'   
-
-        // Without the custom URL mapping, the check would be this:
-//        response.redirectedUrl == '/post/timeline/joe_cool'   
-
+        response.redirectedUrl == '/post/timeline/joe_cool'   
     }
 
     def "Adding an invalid new post to the timeline"() {
@@ -70,7 +66,8 @@ class PostControllerSpec extends Specification {
         def errorMsg = "Invalid or empty post"
         def mockPostService = Mock(PostService)
         controller.postService = mockPostService
-        1 * mockPostService.createPost(chuck.loginId, null) >> { throw new PostException(message: errorMsg) }
+        1 * mockPostService.createPost(chuck.loginId, null) >> 
+          { throw new PostException(message: errorMsg) }
 
         and: "A loginId parameter"
         params.id = chuck.loginId
@@ -83,43 +80,7 @@ class PostControllerSpec extends Specification {
 
         then: "our flash message and redirect confirms the success"
         flash.message == errorMsg
-        response.redirectedUrl == "/users/${chuck.loginId}"
+        response.redirectedUrl == "/post/timeline/${chuck.loginId}"
         Post.countByUser(chuck) == 0
-
-        // Without the custom URL mapping, the check would be this:
-//        response.redirectedUrl == "/post/timeline/${chuck.loginId}"
     }
-
-    @Unroll                                             
-    def "Testing id of #suppliedId redirects to #expectedUrl"() {  
-                                                                   
-        given:                                                     
-        params.id = suppliedId                                     
-                                                                   
-        when: "Controller is invoked"                              
-        controller.home()                                         
-                                                                   
-        then:                                                      
-        response.redirectedUrl == expectedUrl                      
-                                                                   
-        where:                                                     
-        suppliedId  |   expectedUrl                                
-        'joe_cool'  |   '/users/joe_cool'                  
-        null        |   '/users/chuck_norris'              
-                                                                   
-    }
-    
-    def "Exercising security filter for unauthenticated user"() {
-
-        when:
-        withFilters(action: "addPost") {
-            controller.addPost("glen_a_smith", "A first post")
-        }
-
-        then:
-        response.redirectedUrl == '/login/form'
-
-    }
-
 }
-

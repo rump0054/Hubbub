@@ -1,37 +1,19 @@
 Testsuite: com.grailsinaction.PostControllerSpec
-Tests run: 6, Failures: 0, Errors: 2, Time elapsed: 7.18 sec
+Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 4.83 sec
 ------------- Standard Output ---------------
 --Output from Get a users timeline given their id--
 --Output from Check that non-existent users are handled with an error--
 --Output from Adding a valid new post to the timeline--
 --Output from Adding an invalid new post to the timeline--
---Output from Testing id of joe_cool redirects to /post/timeline/joe_cool--
---Output from Testing id of null redirects to /post/timeline/chuck_norris--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from Get a users timeline given their id--
 --Output from Check that non-existent users are handled with an error--
 --Output from Adding a valid new post to the timeline--
 --Output from Adding an invalid new post to the timeline--
---Output from Testing id of joe_cool redirects to /post/timeline/joe_cool--
---Output from Testing id of null redirects to /post/timeline/chuck_norris--
 ------------- ---------------- ---------------
 
-Testcase: Get a users timeline given their id took 5.527 sec
-Testcase: Check that non-existent users are handled with an error took 0.156 sec
-Testcase: Adding a valid new post to the timeline took 0.811 sec
-	Caused an ERROR
-Cannot invoke method createPost() on null object
-java.lang.NullPointerException: Cannot invoke method createPost() on null object
-	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
-	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:60)
-
-Testcase: Adding an invalid new post to the timeline took 0.093 sec
-	Caused an ERROR
-Cannot invoke method createPost() on null object
-java.lang.NullPointerException: Cannot invoke method createPost() on null object
-	at com.grailsinaction.PostController.addPost(PostController.groovy:28)
-	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:80)
-
-Testcase: Testing id of joe_cool redirects to /post/timeline/joe_cool took 0.39 sec
-Testcase: Testing id of null redirects to /post/timeline/chuck_norris took 0.11 sec
+Testcase: Get a users timeline given their id took 3.769 sec
+Testcase: Check that non-existent users are handled with an error took 0.14 sec
+Testcase: Adding a valid new post to the timeline took 0.499 sec
+Testcase: Adding an invalid new post to the timeline took 0.187 sec
