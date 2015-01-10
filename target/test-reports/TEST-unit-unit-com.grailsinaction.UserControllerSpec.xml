@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="TOSHIBA" name="com.grailsinaction.UserControllerSpec" tests="5" time="1.264" timestamp="2015-01-10T01:21:28">
+<testsuite errors="0" failures="0" hostname="TOSHIBA" name="com.grailsinaction.UserControllerSpec" tests="5" time="1.646" timestamp="2015-01-10T04:47:02">
   <properties />
-  <testcase classname="com.grailsinaction.UserControllerSpec" name="Registering a user with known good parameters" time="0.422" />
-  <testcase classname="com.grailsinaction.UserControllerSpec" name="Registration command object for glen validate correctly" time="0.218" />
+  <testcase classname="com.grailsinaction.UserControllerSpec" name="Registering a user with known good parameters" time="0.733" />
+  <testcase classname="com.grailsinaction.UserControllerSpec" name="Registration command object for glen validate correctly" time="0.312" />
   <testcase classname="com.grailsinaction.UserControllerSpec" name="Registration command object for peter validate correctly" time="0.109" />
-  <testcase classname="com.grailsinaction.UserControllerSpec" name="Registration command object for a validate correctly" time="0.109" />
-  <testcase classname="com.grailsinaction.UserControllerSpec" name="Invoking the new register action via a command object" time="0.172" />
+  <testcase classname="com.grailsinaction.UserControllerSpec" name="Registration command object for a validate correctly" time="0.094" />
+  <testcase classname="com.grailsinaction.UserControllerSpec" name="Invoking the new register action via a command object" time="0.234" />
   <system-out><![CDATA[--Output from Registering a user with known good parameters--
 --Output from Registration command object for glen validate correctly--
 --Output from Registration command object for peter validate correctly--

@@ -77,7 +77,7 @@ class UserControllerSpec extends Specification {
 
     then: "the user is registered and browser redirected"
     !urc.hasErrors()
-    response.redirectedUrl == '/'
+    response.redirectedUrl == '/user/profile/glen_a_smith'
     User.count() == 1
     Profile.count() == 1
   }

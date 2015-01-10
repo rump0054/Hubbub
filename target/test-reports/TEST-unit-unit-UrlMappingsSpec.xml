@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="TOSHIBA" name="UrlMappingsSpec" tests="1" time="0.421" timestamp="2015-01-10T01:21:29">
+<testsuite errors="0" failures="0" hostname="TOSHIBA" name="UrlMappingsSpec" tests="1" time="0.593" timestamp="2015-01-10T04:47:03">
   <properties />
-  <testcase classname="UrlMappingsSpec" name="Ensure basic mapping operations for user permalink" time="0.406" />
+  <testcase classname="UrlMappingsSpec" name="Ensure basic mapping operations for user permalink" time="0.593" />
   <system-out><![CDATA[--Output from Ensure basic mapping operations for user permalink--
 ]]></system-out>
   <system-err><![CDATA[--Output from Ensure basic mapping operations for user permalink--

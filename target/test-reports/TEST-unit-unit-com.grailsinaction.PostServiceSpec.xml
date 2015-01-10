@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="TOSHIBA" name="com.grailsinaction.PostServiceSpec" tests="2" time="0.421" timestamp="2015-01-10T01:21:28">
+<testsuite errors="0" failures="0" hostname="TOSHIBA" name="com.grailsinaction.PostServiceSpec" tests="2" time="0.595" timestamp="2015-01-10T04:47:01">
   <properties />
-  <testcase classname="com.grailsinaction.PostServiceSpec" name="Valid posts get saved and added to the user" time="0.172" />
-  <testcase classname="com.grailsinaction.PostServiceSpec" name="Invalid posts generate exceptional outcomes" time="0.078" />
+  <testcase classname="com.grailsinaction.PostServiceSpec" name="Valid posts get saved and added to the user" time="0.265" />
+  <testcase classname="com.grailsinaction.PostServiceSpec" name="Invalid posts generate exceptional outcomes" time="0.063" />
   <system-out><![CDATA[--Output from Valid posts get saved and added to the user--
 --Output from Invalid posts generate exceptional outcomes--
 ]]></system-out>

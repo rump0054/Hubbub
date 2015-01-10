@@ -18,6 +18,7 @@
 		<g:layoutHead/>
 		<g:javascript library="application"/>		
 		<r:layoutResources />
+    <nav:resources/>
 	</head>
 	<body>
 		<div>
@@ -28,6 +29,7 @@
 			</div>
 
 			<div id="bd">
+        <nav:render group="tabs"/>
 				<g:layoutBody/>
 			</div>
 

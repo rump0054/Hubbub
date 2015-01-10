@@ -14677,3 +14677,314 @@ java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassL
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
 	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:52:57,918 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "ApplicationResources$$DP0xdmx3"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1093)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:382)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:52:57,918 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "ApplicationResources$$DP0xdmx3"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:52:57,918 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "ApplicationResources$$DP0xdmx3"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:52:57,918 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "ApplicationResources$$DP0xdmx3"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:08,901 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "JQueryPluginResources$$DP0xdpqi"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1093)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:382)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:08,901 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "JQueryPluginResources$$DP0xdpqi"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:08,901 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "JQueryPluginResources$$DP0xdpqi"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:08,901 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "JQueryPluginResources$$DP0xdpqi"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:10,102 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "ResourcesGrailsPlugin$$DP0xdqCr"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1093)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:382)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:10,102 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "ResourcesGrailsPlugin$$DP0xdqCr"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:10,102 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "ResourcesGrailsPlugin$$DP0xdqCr"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:10,102 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "ResourcesGrailsPlugin$$DP0xdqCr"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:27,199 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/CSSLinkProcessor$$DP0xduaq"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1093)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:382)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:27,199 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/CSSLinkProcessor$$DP0xduaq"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:27,199 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/CSSLinkProcessor$$DP0xduaq"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:27,199 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/CSSLinkProcessor$$DP0xduaq"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:28,479 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/ResourceMeta$$DP0xduxk"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1093)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:382)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:28,479 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/ResourceMeta$$DP0xduxk"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:28,479 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/ResourceMeta$$DP0xduxk"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:28,479 [FileSystemWatcher: files=#269 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/ResourceMeta$$DP0xduxk"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:37,698 [FileSystemWatcher: files=#272 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/ResourceProcessor$$DP0xdvIN"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1093)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:382)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:37,698 [FileSystemWatcher: files=#272 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/ResourceProcessor$$DP0xdvIN"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:37,698 [FileSystemWatcher: files=#272 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/ResourceProcessor$$DP0xdvIN"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:37,698 [FileSystemWatcher: files=#272 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/ResourceProcessor$$DP0xdvIN"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:38,853 [FileSystemWatcher: files=#272 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/util/DispositionsUtils$$DP0xdw7h"
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at org.springsource.loaded.ChildClassLoader.defineClass(ChildClassLoader.java:37)
+	at org.springsource.loaded.TypeRegistry.defineClass(TypeRegistry.java:1093)
+	at org.springsource.loaded.CurrentLiveVersion.define(CurrentLiveVersion.java:111)
+	at org.springsource.loaded.CurrentLiveVersion.<init>(CurrentLiveVersion.java:99)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:382)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:38,853 [FileSystemWatcher: files=#272 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/util/DispositionsUtils$$DP0xdw7h"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:38,853 [FileSystemWatcher: files=#272 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/util/DispositionsUtils$$DP0xdw7h"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:53:38,853 [FileSystemWatcher: files=#272 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "org/grails/plugin/resource/util/DispositionsUtils$$DP0xdw7h"
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:631)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:54:29,381 [FileSystemWatcher: files=#272 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.grailsinaction.Profile.skin() is applicable for argument types: (java.util.LinkedHashMap) values: [[nullable:true, blank:true, inList:[blues, ...]]]
+Possible solutions: wait(), save(), find(), wait(long), find(com.grailsinaction.Profile), find(groovy.lang.Closure)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:55)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:78)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at com.grailsinaction.Profile$__clinit__closure1$$EP0xdoj1.doCall(Profile.groovy:25)
+	at com.grailsinaction.Profile$__clinit__closure1$$DP0xdoj1.doCall(Unknown Source)
+	at com.grailsinaction.Profile$__clinit__closure1.doCall(Profile.groovy)
+	at com.grailsinaction.Profile$__clinit__closure1$$EP0xdoj1.doCall(Profile.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springsource.loaded.ri.ReloadedTypeInvoker$2.invoke(ReloadedTypeInvoker.java:122)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1283)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1086)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:910)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at com.grailsinaction.Profile$__clinit__closure1.call(Profile.groovy)
+	at groovy.lang.Closure.call(Closure.java:405)
+	at com.grailsinaction.Profile$__clinit__closure1.call(Profile.groovy)
+	at org.codehaus.groovy.grails.validation.DefaultConstraintEvaluator.evaluateConstraints(DefaultConstraintEvaluator.java:105)
+	at org.codehaus.groovy.grails.validation.DefaultConstraintEvaluator.evaluate(DefaultConstraintEvaluator.java:300)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsDomainClass.refreshConstraints(DefaultGrailsDomainClass.java:792)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.refreshConstraints(DefaultGrailsApplication.java:400)
+	at org.codehaus.groovy.grails.commons.GrailsApplication$refreshConstraints$2.call(Unknown Source)
+	at org.codehaus.groovy.grails.plugins.DomainClassGrailsPlugin$_closure3.doCall(DomainClassGrailsPlugin.groovy:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1260)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1086)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1110)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:910)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.invokeOnChangeListener(DefaultGrailsPlugin.java:767)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:716)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.notifyOfEvent(DefaultGrailsPlugin.java:731)
+	at org.codehaus.groovy.grails.plugins.AbstractGrailsPluginManager.informOfClassChange(AbstractGrailsPluginManager.java:409)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher$2.run(GrailsProjectWatcher.java:263)
+	at org.codehaus.groovy.grails.compiler.GrailsProjectWatcher.firePendingClassChangeEvents(GrailsProjectWatcher.java:124)
+	at org.codehaus.groovy.grails.cli.agent.GrailsPluginManagerReloadPlugin.reloadEvent(GrailsPluginManagerReloadPlugin.java:42)
+	at org.springsource.loaded.TypeRegistry.fireReloadEvent(TypeRegistry.java:1664)
+	at org.springsource.loaded.ReloadableType.loadNewVersion(ReloadableType.java:397)
+	at org.springsource.loaded.TypeRegistry.loadNewVersion(TypeRegistry.java:828)
+	at org.springsource.loaded.agent.ReloadableFileChangeListener.fileChanged(ReloadableFileChangeListener.java:51)
+	at org.springsource.loaded.agent.Watcher.determineChangesSince(FileSystemWatcher.java:235)
+	at org.springsource.loaded.agent.Watcher.run(FileSystemWatcher.java:219)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:54:29,397 [FileSystemWatcher: files=#272 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.grailsinaction.Profile.skin() is applicable for argument types: (java.util.LinkedHashMap) values: [[nullable:true, blank:true, inList:[blues, ...]]]
+Possible solutions: wait(), save(), find(), wait(long), find(com.grailsinaction.Profile), find(groovy.lang.Closure)
+	at com.grailsinaction.Profile$__clinit__closure1$$EP0xdoj1.doCall(Profile.groovy:25)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:54:29,412 [FileSystemWatcher: files=#272 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.grailsinaction.Profile.skin() is applicable for argument types: (java.util.LinkedHashMap) values: [[nullable:true, blank:true, inList:[blues, ...]]]
+Possible solutions: wait(), save(), find(), wait(long), find(com.grailsinaction.Profile), find(groovy.lang.Closure)
+	at com.grailsinaction.Profile$__clinit__closure1$$EP0xdoj1.doCall(Profile.groovy:25)
+	at java.lang.Thread.run(Thread.java:662)
+2015-01-10 02:54:29,428 [FileSystemWatcher: files=#272 cl=groovy.lang.GroovyClassLoader@3999c6a2] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: com.grailsinaction.Profile.skin() is applicable for argument types: (java.util.LinkedHashMap) values: [[nullable:true, blank:true, inList:[blues, ...]]]
+Possible solutions: wait(), save(), find(), wait(long), find(com.grailsinaction.Profile), find(groovy.lang.Closure)
+	at com.grailsinaction.Profile$__clinit__closure1$$EP0xdoj1.doCall(Profile.groovy:25)
+	at java.lang.Thread.run(Thread.java:662)
