@@ -1,5 +1,5 @@
 Testsuite: com.grailsinaction.PostServiceSpec
-Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.421 sec
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.53 sec
 ------------- Standard Output ---------------
 --Output from Valid posts get saved and added to the user--
 --Output from Invalid posts generate exceptional outcomes--
@@ -9,5 +9,5 @@ Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.421 sec
 --Output from Invalid posts generate exceptional outcomes--
 ------------- ---------------- ---------------
 
-Testcase: Valid posts get saved and added to the user took 0.172 sec
+Testcase: Valid posts get saved and added to the user took 0.281 sec
 Testcase: Invalid posts generate exceptional outcomes took 0.078 sec

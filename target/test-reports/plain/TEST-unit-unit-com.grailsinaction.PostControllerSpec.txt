@@ -1,5 +1,5 @@
 Testsuite: com.grailsinaction.PostControllerSpec
-Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 5.383 sec
+Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 9.206 sec
 ------------- Standard Output ---------------
 --Output from Get a users timeline given their id--
 --Output from Check that non-existent users are handled with an error--
@@ -19,10 +19,10 @@ Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 5.383 sec
 --Output from Exercising security filter for unauthenticated user--
 ------------- ---------------- ---------------
 
-Testcase: Get a users timeline given their id took 3.386 sec
-Testcase: Check that non-existent users are handled with an error took 0.484 sec
-Testcase: Adding a valid new post to the timeline took 0.483 sec
-Testcase: Adding an invalid new post to the timeline took 0.297 sec
-Testcase: Testing id of joe_cool redirects to /users/joe_cool took 0.187 sec
-Testcase: Testing id of null redirects to /users/chuck_norris took 0.156 sec
-Testcase: Exercising security filter for unauthenticated user took 0.218 sec
+Testcase: Get a users timeline given their id took 6.366 sec
+Testcase: Check that non-existent users are handled with an error took 0.203 sec
+Testcase: Adding a valid new post to the timeline took 1.451 sec
+Testcase: Adding an invalid new post to the timeline took 0.359 sec
+Testcase: Testing id of joe_cool redirects to /users/joe_cool took 0.125 sec
+Testcase: Testing id of null redirects to /users/chuck_norris took 0.141 sec
+Testcase: Exercising security filter for unauthenticated user took 0.296 sec
