@@ -13838,3 +13838,81 @@ java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassL
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:615)
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:465)
 	at java.lang.Thread.run(Thread.java:662)
+2015-01-09 20:44:05,799 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/'
+|        |             |
+|        |             false
+|        |             25 differences (3% similarity)
+|        |             /(user/profile/glen_a_smith)
+|        |             /(-------------------------)
+|        /user/profile/glen_a_smith
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6ee09a07
+
+	at com.grailsinaction.UserControllerSpec.Invoking the new register action via a command object(UserControllerSpec.groovy:80)
+2015-01-09 20:44:05,830 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/'
+|        |             |
+|        |             false
+|        |             25 differences (3% similarity)
+|        |             /(user/profile/glen_a_smith)
+|        |             /(-------------------------)
+|        /user/profile/glen_a_smith
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6ee09a07
+
+	at com.grailsinaction.UserControllerSpec.Invoking the new register action via a command object(UserControllerSpec.groovy:80)
+2015-01-09 20:44:05,830 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/'
+|        |             |
+|        |             false
+|        |             25 differences (3% similarity)
+|        |             /(user/profile/glen_a_smith)
+|        |             /(-------------------------)
+|        /user/profile/glen_a_smith
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6ee09a07
+
+	at com.grailsinaction.UserControllerSpec.Invoking the new register action via a command object(UserControllerSpec.groovy:80)
+2015-01-09 20:44:05,830 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/'
+|        |             |
+|        |             false
+|        |             25 differences (3% similarity)
+|        |             /(user/profile/glen_a_smith)
+|        |             /(-------------------------)
+|        /user/profile/glen_a_smith
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6ee09a07
+
+	at com.grailsinaction.UserControllerSpec.Invoking the new register action via a command object(UserControllerSpec.groovy:80)
+2015-01-09 20:44:06,142 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/'
+|        |             |
+|        |             false
+|        |             25 differences (3% similarity)
+|        |             /(user/profile/glen_a_smith)
+|        |             /(-------------------------)
+|        /user/profile/glen_a_smith
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6ee09a07
+
+	at com.grailsinaction.UserControllerSpec.Invoking the new register action via a command object(UserControllerSpec.groovy:80)
+2015-01-09 20:44:06,142 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/'
+|        |             |
+|        |             false
+|        |             25 differences (3% similarity)
+|        |             /(user/profile/glen_a_smith)
+|        |             /(-------------------------)
+|        /user/profile/glen_a_smith
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6ee09a07
+
+	at com.grailsinaction.UserControllerSpec.Invoking the new register action via a command object(UserControllerSpec.groovy:80)

@@ -1,82 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="0" name="PostIntegrationSpec" package="com.grailsinaction" tests="3" time="0.25" timestamp="2015-01-10T03:43:14">
-      <properties />
-
-      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Adding posts to user links post to user" time="0.203" />
-
-      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Ensure posts linked to a user can be retrieved" time="0.031" />
-
-      <testcase classname="com.grailsinaction.PostIntegrationSpec" name="Exercise tagging several posts with various tags" time="0.016" />
-
-      <system-out><![CDATA[--Output from Adding posts to user links post to user--
---Output from Ensure posts linked to a user can be retrieved--
---Output from Exercise tagging several posts with various tags--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from Adding posts to user links post to user--
---Output from Ensure posts linked to a user can be retrieved--
---Output from Exercise tagging several posts with various tags--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="1" name="QueryIntegrationSpec" package="com.grailsinaction" tests="5" time="0.484" timestamp="2015-01-10T03:43:14">
-      <properties />
-
-      <testcase classname="com.grailsinaction.QueryIntegrationSpec" name="Simple property comparison" time="0.328" />
-
-      <testcase classname="com.grailsinaction.QueryIntegrationSpec" name="Multiple criteria" time="0.031" />
-
-      <testcase classname="com.grailsinaction.QueryIntegrationSpec" name="Query on association" time="0.063" />
-
-      <testcase classname="com.grailsinaction.QueryIntegrationSpec" name="Query against a range value" time="0.031" />
-
-      <testcase classname="com.grailsinaction.QueryIntegrationSpec" name="Retrieve a single instance" time="0.031" />
-
-      <system-out><![CDATA[--Output from Simple property comparison--
---Output from Multiple criteria--
---Output from Query on association--
---Output from Query against a range value--
---Output from Retrieve a single instance--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from Simple property comparison--
---Output from Multiple criteria--
---Output from Query on association--
---Output from Query against a range value--
---Output from Retrieve a single instance--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="2" name="UserIntegrationSpec" package="com.grailsinaction" tests="5" time="0.156" timestamp="2015-01-10T03:43:15">
-      <properties />
-
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="0.015" />
-
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Updating a saved user changes its properties" time="0.016" />
-
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Deleting an existing user removes it from the databse" time="0.062" />
-
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving a user with invalid properties causes an error" time="0.047" />
-
-      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Recovering from a failed save by fixing invalid properties" time="0.016" />
-
-      <system-out><![CDATA[--Output from Saving our first user to the database--
---Output from Updating a saved user changes its properties--
---Output from Deleting an existing user removes it from the databse--
---Output from Saving a user with invalid properties causes an error--
---Output from Recovering from a failed save by fixing invalid properties--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from Saving our first user to the database--
---Output from Updating a saved user changes its properties--
---Output from Deleting an existing user removes it from the databse--
---Output from Saving a user with invalid properties causes an error--
---Output from Recovering from a failed save by fixing invalid properties--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="3" name="UrlMappingsSpec" package="" tests="1" time="0.593" timestamp="2015-01-10T03:42:41">
+  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="0" name="UrlMappingsSpec" package="" tests="1" time="0.593" timestamp="2015-01-10T04:47:03">
       <properties />
 
       <testcase classname="UrlMappingsSpec" name="Ensure basic mapping operations for user permalink" time="0.593" />
@@ -88,22 +12,42 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="4" name="PostControllerSpec" package="com.grailsinaction" tests="7" time="9.206" timestamp="2015-01-10T03:42:30">
+  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="1" name="DateTagLibSpec" package="com.grailsinaction" tests="3" time="4.478" timestamp="2015-01-10T04:46:50">
       <properties />
 
-      <testcase classname="com.grailsinaction.PostControllerSpec" name="Get a users timeline given their id" time="6.366" />
+      <testcase classname="com.grailsinaction.DateTagLibSpec" name="Conversion of Current Time matches Right now" time="3.182" />
 
-      <testcase classname="com.grailsinaction.PostControllerSpec" name="Check that non-existent users are handled with an error" time="0.203" />
+      <testcase classname="com.grailsinaction.DateTagLibSpec" name="Conversion of Now - 1 day matches 1 day ago" time="0.234" />
 
-      <testcase classname="com.grailsinaction.PostControllerSpec" name="Adding a valid new post to the timeline" time="1.451" />
+      <testcase classname="com.grailsinaction.DateTagLibSpec" name="Conversion of Now - 2 days matches 2 days ago" time="0.265" />
 
-      <testcase classname="com.grailsinaction.PostControllerSpec" name="Adding an invalid new post to the timeline" time="0.359" />
+      <system-out><![CDATA[--Output from Conversion of Current Time matches Right now--
+--Output from Conversion of Now - 1 day matches 1 day ago--
+--Output from Conversion of Now - 2 days matches 2 days ago--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Conversion of Current Time matches Right now--
+--Output from Conversion of Now - 1 day matches 1 day ago--
+--Output from Conversion of Now - 2 days matches 2 days ago--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="2" name="PostControllerSpec" package="com.grailsinaction" tests="7" time="6.286" timestamp="2015-01-10T04:46:55">
+      <properties />
+
+      <testcase classname="com.grailsinaction.PostControllerSpec" name="Get a users timeline given their id" time="3.822" />
+
+      <testcase classname="com.grailsinaction.PostControllerSpec" name="Check that non-existent users are handled with an error" time="0.202" />
+
+      <testcase classname="com.grailsinaction.PostControllerSpec" name="Adding a valid new post to the timeline" time="1.295" />
+
+      <testcase classname="com.grailsinaction.PostControllerSpec" name="Adding an invalid new post to the timeline" time="0.25" />
 
       <testcase classname="com.grailsinaction.PostControllerSpec" name="Testing id of joe_cool redirects to /users/joe_cool" time="0.125" />
 
-      <testcase classname="com.grailsinaction.PostControllerSpec" name="Testing id of null redirects to /users/chuck_norris" time="0.141" />
+      <testcase classname="com.grailsinaction.PostControllerSpec" name="Testing id of null redirects to /users/chuck_norris" time="0.171" />
 
-      <testcase classname="com.grailsinaction.PostControllerSpec" name="Exercising security filter for unauthenticated user" time="0.296" />
+      <testcase classname="com.grailsinaction.PostControllerSpec" name="Exercising security filter for unauthenticated user" time="0.219" />
 
       <system-out><![CDATA[--Output from Get a users timeline given their id--
 --Output from Check that non-existent users are handled with an error--
@@ -124,12 +68,12 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="5" name="PostServiceSpec" package="com.grailsinaction" tests="2" time="0.53" timestamp="2015-01-10T03:42:39">
+  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="3" name="PostServiceSpec" package="com.grailsinaction" tests="2" time="0.595" timestamp="2015-01-10T04:47:01">
       <properties />
 
-      <testcase classname="com.grailsinaction.PostServiceSpec" name="Valid posts get saved and added to the user" time="0.281" />
+      <testcase classname="com.grailsinaction.PostServiceSpec" name="Valid posts get saved and added to the user" time="0.265" />
 
-      <testcase classname="com.grailsinaction.PostServiceSpec" name="Invalid posts generate exceptional outcomes" time="0.078" />
+      <testcase classname="com.grailsinaction.PostServiceSpec" name="Invalid posts generate exceptional outcomes" time="0.063" />
 
       <system-out><![CDATA[--Output from Valid posts get saved and added to the user--
 --Output from Invalid posts generate exceptional outcomes--
@@ -140,18 +84,18 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="6" name="UserControllerSpec" package="com.grailsinaction" tests="5" time="1.639" timestamp="2015-01-10T03:42:40">
+  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="4" name="UserControllerSpec" package="com.grailsinaction" tests="5" time="1.646" timestamp="2015-01-10T04:47:02">
       <properties />
 
-      <testcase classname="com.grailsinaction.UserControllerSpec" name="Registering a user with known good parameters" time="0.578" />
+      <testcase classname="com.grailsinaction.UserControllerSpec" name="Registering a user with known good parameters" time="0.733" />
 
-      <testcase classname="com.grailsinaction.UserControllerSpec" name="Registration command object for glen validate correctly" time="0.297" />
+      <testcase classname="com.grailsinaction.UserControllerSpec" name="Registration command object for glen validate correctly" time="0.312" />
 
-      <testcase classname="com.grailsinaction.UserControllerSpec" name="Registration command object for peter validate correctly" time="0.124" />
+      <testcase classname="com.grailsinaction.UserControllerSpec" name="Registration command object for peter validate correctly" time="0.109" />
 
-      <testcase classname="com.grailsinaction.UserControllerSpec" name="Registration command object for a validate correctly" time="0.141" />
+      <testcase classname="com.grailsinaction.UserControllerSpec" name="Registration command object for a validate correctly" time="0.094" />
 
-      <testcase classname="com.grailsinaction.UserControllerSpec" name="Invoking the new register action via a command object" time="0.281" />
+      <testcase classname="com.grailsinaction.UserControllerSpec" name="Invoking the new register action via a command object" time="0.234" />
 
       <system-out><![CDATA[--Output from Registering a user with known good parameters--
 --Output from Registration command object for glen validate correctly--
