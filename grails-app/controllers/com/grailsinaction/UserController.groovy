@@ -36,7 +36,8 @@ class UserController {
       user.profile = new Profile(urc.properties)
       if (user.validate() && user.save()) {
         flash.message = "Welcome aboard, ${urc.fullName ?: urc.loginId}"
-        redirect(uri: '/')
+        //redirect(uri: '/')
+        redirect action: 'profile', id: user.loginId
       } else {
         return [ user: urc ]
       }
@@ -57,6 +58,7 @@ class UserRegistrationCommand {
   String loginId
   String password
   String passwordRepeat
+  byte[] photo
   String fullName
   String bio
   String homepage
