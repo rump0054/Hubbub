@@ -1,0 +1,3 @@
+--Output from Conversion of Current Time matches Right now--
+--Output from Conversion of Now - 1 day matches 1 day ago--
+--Output from Conversion of Now - 2 days matches 2 days ago--

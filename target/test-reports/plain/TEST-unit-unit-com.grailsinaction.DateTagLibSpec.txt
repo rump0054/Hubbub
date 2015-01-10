@@ -1,0 +1,16 @@
+Testsuite: com.grailsinaction.DateTagLibSpec
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 4.478 sec
+------------- Standard Output ---------------
+--Output from Conversion of Current Time matches Right now--
+--Output from Conversion of Now - 1 day matches 1 day ago--
+--Output from Conversion of Now - 2 days matches 2 days ago--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Conversion of Current Time matches Right now--
+--Output from Conversion of Now - 1 day matches 1 day ago--
+--Output from Conversion of Now - 2 days matches 2 days ago--
+------------- ---------------- ---------------
+
+Testcase: Conversion of Current Time matches Right now took 3.182 sec
+Testcase: Conversion of Now - 1 day matches 1 day ago took 0.234 sec
+Testcase: Conversion of Now - 2 days matches 2 days ago took 0.265 sec
