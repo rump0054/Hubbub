@@ -14,6 +14,10 @@ class PostController {
     redirect(action: 'timeline', params: params)
   }
 
+  def global() {
+    [ posts: Post.list(params), postCount: Post.count() ]
+  }
+
   def timeline(String id) {
     def user = User.findByLoginId(id)
     if (!user) {
