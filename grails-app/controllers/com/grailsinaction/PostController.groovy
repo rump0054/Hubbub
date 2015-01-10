@@ -4,6 +4,11 @@ class PostController {
   static defaultAction = 'home'
   static scaffold = true
 
+  static navigation = [
+    [group:'tabs', action: 'personal', title: 'My Timeline', order: 0],
+    [action: 'global', title: 'Global Timeline', order: 1]
+  ]
+
   def postService
 
   def home() {
