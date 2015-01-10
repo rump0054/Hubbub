@@ -1,0 +1,10 @@
+Testsuite: UrlMappingsSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.421 sec
+------------- Standard Output ---------------
+--Output from Ensure basic mapping operations for user permalink--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Ensure basic mapping operations for user permalink--
+------------- ---------------- ---------------
+
+Testcase: Ensure basic mapping operations for user permalink took 0.406 sec

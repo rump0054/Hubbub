@@ -9250,3 +9250,339 @@ Caused by: org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: 
 	at C__Users_Erik_Desktop_Hubbub_grails_app_views_login_form_gsp$_run_closure2.doCall(C__Users_Erik_Desktop_Hubbub_grails_app_views_login_form_gsp:39)
 	at C__Users_Erik_Desktop_Hubbub_grails_app_views_login_form_gsp.run(C__Users_Erik_Desktop_Hubbub_grails_app_views_login_form_gsp:42)
 	... 5 more
+2015-01-09 17:12:44,699 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/post/timeline/joe_cool'
+|        |             |
+|        |             false
+|        |             11 differences (52% similarity)
+|        |             /(u-)s(-----)e(rs--)/joe_cool
+|        |             /(po)s(t/tim)e(line)/joe_cool
+|        /users/joe_cool
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@622ce9e6
+
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:58)
+2015-01-09 17:12:44,715 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/post/timeline/joe_cool'
+|        |             |
+|        |             false
+|        |             11 differences (52% similarity)
+|        |             /(u-)s(-----)e(rs--)/joe_cool
+|        |             /(po)s(t/tim)e(line)/joe_cool
+|        /users/joe_cool
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@622ce9e6
+
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:58)
+2015-01-09 17:12:44,715 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/post/timeline/joe_cool'
+|        |             |
+|        |             false
+|        |             11 differences (52% similarity)
+|        |             /(u-)s(-----)e(rs--)/joe_cool
+|        |             /(po)s(t/tim)e(line)/joe_cool
+|        /users/joe_cool
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@622ce9e6
+
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:58)
+2015-01-09 17:12:44,715 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/post/timeline/joe_cool'
+|        |             |
+|        |             false
+|        |             11 differences (52% similarity)
+|        |             /(u-)s(-----)e(rs--)/joe_cool
+|        |             /(po)s(t/tim)e(line)/joe_cool
+|        /users/joe_cool
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@622ce9e6
+
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:58)
+2015-01-09 17:12:44,730 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/post/timeline/joe_cool'
+|        |             |
+|        |             false
+|        |             11 differences (52% similarity)
+|        |             /(u-)s(-----)e(rs--)/joe_cool
+|        |             /(po)s(t/tim)e(line)/joe_cool
+|        /users/joe_cool
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@622ce9e6
+
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:58)
+2015-01-09 17:12:44,730 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/post/timeline/joe_cool'
+|        |             |
+|        |             false
+|        |             11 differences (52% similarity)
+|        |             /(u-)s(-----)e(rs--)/joe_cool
+|        |             /(po)s(t/tim)e(line)/joe_cool
+|        /users/joe_cool
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@622ce9e6
+
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:58)
+2015-01-09 17:12:44,933 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == "/post/timeline/${chuck.loginId}"
+|        |             |                    |     |
+|        |             |                    |     chuck_norris
+|        |             |                    User chuck_norris (id: 1)
+|        |             false
+|        |             11 differences (59% similarity)
+|        |             /(u-)s(-----)e(rs--)/chuck_norris
+|        |             /(po)s(t/tim)e(line)/chuck_norris
+|        /users/chuck_norris
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42aec705
+
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:83)
+2015-01-09 17:12:44,933 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == "/post/timeline/${chuck.loginId}"
+|        |             |                    |     |
+|        |             |                    |     chuck_norris
+|        |             |                    User chuck_norris (id: 1)
+|        |             false
+|        |             11 differences (59% similarity)
+|        |             /(u-)s(-----)e(rs--)/chuck_norris
+|        |             /(po)s(t/tim)e(line)/chuck_norris
+|        /users/chuck_norris
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42aec705
+
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:83)
+2015-01-09 17:12:44,933 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == "/post/timeline/${chuck.loginId}"
+|        |             |                    |     |
+|        |             |                    |     chuck_norris
+|        |             |                    User chuck_norris (id: 1)
+|        |             false
+|        |             11 differences (59% similarity)
+|        |             /(u-)s(-----)e(rs--)/chuck_norris
+|        |             /(po)s(t/tim)e(line)/chuck_norris
+|        /users/chuck_norris
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42aec705
+
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:83)
+2015-01-09 17:12:44,933 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == "/post/timeline/${chuck.loginId}"
+|        |             |                    |     |
+|        |             |                    |     chuck_norris
+|        |             |                    User chuck_norris (id: 1)
+|        |             false
+|        |             11 differences (59% similarity)
+|        |             /(u-)s(-----)e(rs--)/chuck_norris
+|        |             /(po)s(t/tim)e(line)/chuck_norris
+|        /users/chuck_norris
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42aec705
+
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:83)
+2015-01-09 17:12:44,933 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == "/post/timeline/${chuck.loginId}"
+|        |             |                    |     |
+|        |             |                    |     chuck_norris
+|        |             |                    User chuck_norris (id: 1)
+|        |             false
+|        |             11 differences (59% similarity)
+|        |             /(u-)s(-----)e(rs--)/chuck_norris
+|        |             /(po)s(t/tim)e(line)/chuck_norris
+|        /users/chuck_norris
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42aec705
+
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:83)
+2015-01-09 17:12:44,933 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == "/post/timeline/${chuck.loginId}"
+|        |             |                    |     |
+|        |             |                    |     chuck_norris
+|        |             |                    User chuck_norris (id: 1)
+|        |             false
+|        |             11 differences (59% similarity)
+|        |             /(u-)s(-----)e(rs--)/chuck_norris
+|        |             /(po)s(t/tim)e(line)/chuck_norris
+|        /users/chuck_norris
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42aec705
+
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:83)
+2015-01-09 17:18:38,138 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/post/timeline/joe_cool'
+|        |             |
+|        |             false
+|        |             11 differences (52% similarity)
+|        |             /(u-)s(-----)e(rs--)/joe_cool
+|        |             /(po)s(t/tim)e(line)/joe_cool
+|        /users/joe_cool
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3f7a04af
+
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:61)
+2015-01-09 17:18:38,154 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/post/timeline/joe_cool'
+|        |             |
+|        |             false
+|        |             11 differences (52% similarity)
+|        |             /(u-)s(-----)e(rs--)/joe_cool
+|        |             /(po)s(t/tim)e(line)/joe_cool
+|        /users/joe_cool
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3f7a04af
+
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:61)
+2015-01-09 17:18:38,154 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/post/timeline/joe_cool'
+|        |             |
+|        |             false
+|        |             11 differences (52% similarity)
+|        |             /(u-)s(-----)e(rs--)/joe_cool
+|        |             /(po)s(t/tim)e(line)/joe_cool
+|        /users/joe_cool
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3f7a04af
+
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:61)
+2015-01-09 17:18:38,154 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/post/timeline/joe_cool'
+|        |             |
+|        |             false
+|        |             11 differences (52% similarity)
+|        |             /(u-)s(-----)e(rs--)/joe_cool
+|        |             /(po)s(t/tim)e(line)/joe_cool
+|        /users/joe_cool
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3f7a04af
+
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:61)
+2015-01-09 17:18:38,154 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/post/timeline/joe_cool'
+|        |             |
+|        |             false
+|        |             11 differences (52% similarity)
+|        |             /(u-)s(-----)e(rs--)/joe_cool
+|        |             /(po)s(t/tim)e(line)/joe_cool
+|        /users/joe_cool
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3f7a04af
+
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:61)
+2015-01-09 17:18:38,154 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/post/timeline/joe_cool'
+|        |             |
+|        |             false
+|        |             11 differences (52% similarity)
+|        |             /(u-)s(-----)e(rs--)/joe_cool
+|        |             /(po)s(t/tim)e(line)/joe_cool
+|        /users/joe_cool
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3f7a04af
+
+	at com.grailsinaction.PostControllerSpec.Adding a valid new post to the timeline(PostControllerSpec.groovy:61)
+2015-01-09 17:18:38,406 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == "/post/timeline/${chuck.loginId}"
+|        |             |                    |     |
+|        |             |                    |     chuck_norris
+|        |             |                    User chuck_norris (id: 1)
+|        |             false
+|        |             11 differences (59% similarity)
+|        |             /(u-)s(-----)e(rs--)/chuck_norris
+|        |             /(po)s(t/tim)e(line)/chuck_norris
+|        /users/chuck_norris
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@622ce9e6
+
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:90)
+2015-01-09 17:18:38,406 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == "/post/timeline/${chuck.loginId}"
+|        |             |                    |     |
+|        |             |                    |     chuck_norris
+|        |             |                    User chuck_norris (id: 1)
+|        |             false
+|        |             11 differences (59% similarity)
+|        |             /(u-)s(-----)e(rs--)/chuck_norris
+|        |             /(po)s(t/tim)e(line)/chuck_norris
+|        /users/chuck_norris
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@622ce9e6
+
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:90)
+2015-01-09 17:18:38,406 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == "/post/timeline/${chuck.loginId}"
+|        |             |                    |     |
+|        |             |                    |     chuck_norris
+|        |             |                    User chuck_norris (id: 1)
+|        |             false
+|        |             11 differences (59% similarity)
+|        |             /(u-)s(-----)e(rs--)/chuck_norris
+|        |             /(po)s(t/tim)e(line)/chuck_norris
+|        /users/chuck_norris
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@622ce9e6
+
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:90)
+2015-01-09 17:18:38,406 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == "/post/timeline/${chuck.loginId}"
+|        |             |                    |     |
+|        |             |                    |     chuck_norris
+|        |             |                    User chuck_norris (id: 1)
+|        |             false
+|        |             11 differences (59% similarity)
+|        |             /(u-)s(-----)e(rs--)/chuck_norris
+|        |             /(po)s(t/tim)e(line)/chuck_norris
+|        /users/chuck_norris
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@622ce9e6
+
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:90)
+2015-01-09 17:18:38,406 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == "/post/timeline/${chuck.loginId}"
+|        |             |                    |     |
+|        |             |                    |     chuck_norris
+|        |             |                    User chuck_norris (id: 1)
+|        |             false
+|        |             11 differences (59% similarity)
+|        |             /(u-)s(-----)e(rs--)/chuck_norris
+|        |             /(po)s(t/tim)e(line)/chuck_norris
+|        /users/chuck_norris
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@622ce9e6
+
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:90)
+2015-01-09 17:18:38,406 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == "/post/timeline/${chuck.loginId}"
+|        |             |                    |     |
+|        |             |                    |     chuck_norris
+|        |             |                    User chuck_norris (id: 1)
+|        |             false
+|        |             11 differences (59% similarity)
+|        |             /(u-)s(-----)e(rs--)/chuck_norris
+|        |             /(po)s(t/tim)e(line)/chuck_norris
+|        /users/chuck_norris
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@622ce9e6
+
+	at com.grailsinaction.PostControllerSpec.Adding an invalid new post to the timeline(PostControllerSpec.groovy:90)

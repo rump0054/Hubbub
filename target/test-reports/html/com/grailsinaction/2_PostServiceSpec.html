@@ -2,7 +2,7 @@
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>
-                    Test - UserControllerSpec</title>
+                    Test - PostServiceSpec</title>
 <link rel="shortcut icon" href="http://grails.org/images/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" title="Style" href="../../stylesheet.css">
 </head>
@@ -12,7 +12,7 @@
 <a title="Home" href="../../index.html">
 <div class="grailslogo"></div>
 </a>
-<h1>UserControllerSpec</h1>
+<h1>PostServiceSpec</h1>
 <h2>Package: com.grailsinaction</h2>
 </div>
 <div class="grid_2">
@@ -37,61 +37,31 @@
 <div class="clear"></div>
 <div class="testsuite success">
 <div class="header">
-<h2>UserControllerSpec</h2>
+<h2>PostServiceSpec</h2>
 <h3>
                         Executed
-                        5
+                        2
                         tests
                     
                         without a single error or failure!
                     </h3>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Registering a user with known good parameters">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Valid posts get saved and added to the user">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">Registering a user with known good parameters</b>
-</p>
-<p class="summary">Executed in 0.405 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Registration command object for glen validate correctly">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">Registration command object for glen validate correctly</b>
-</p>
-<p class="summary">Executed in 0.25 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Registration command object for peter validate correctly">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">Registration command object for peter validate correctly</b>
-</p>
-<p class="summary">Executed in 0.156 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Registration command object for a validate correctly">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">Registration command object for a validate correctly</b>
-</p>
-<p class="summary">Executed in 0.14 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Invoking the new register action via a command object">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">Invoking the new register action via a command object</b>
+<span class="icon success"></span><b class="testname message success">Valid posts get saved and added to the user</b>
 </p>
 <p class="summary">Executed in 0.172 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Invalid posts generate exceptional outcomes">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Invalid posts generate exceptional outcomes</b>
+</p>
+<p class="summary">Executed in 0.078 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -99,20 +69,14 @@
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from Registering a user with known good parameters--
---Output from Registration command object for glen validate correctly--
---Output from Registration command object for peter validate correctly--
---Output from Registration command object for a validate correctly--
---Output from Invoking the new register action via a command object--
+<pre class="stdout">--Output from Valid posts get saved and added to the user--
+--Output from Invalid posts generate exceptional outcomes--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from Registering a user with known good parameters--
---Output from Registration command object for glen validate correctly--
---Output from Registration command object for peter validate correctly--
---Output from Registration command object for a validate correctly--
---Output from Invoking the new register action via a command object--
+<pre class="syserr">--Output from Valid posts get saved and added to the user--
+--Output from Invalid posts generate exceptional outcomes--
 </pre>
 </div>
 </div>

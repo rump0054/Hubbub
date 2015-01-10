@@ -1,0 +1,1 @@
+--Output from Ensure basic mapping operations for user permalink--
