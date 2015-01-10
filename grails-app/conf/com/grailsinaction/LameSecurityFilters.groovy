@@ -2,7 +2,7 @@ package com.grailsinaction
 
 class LameSecurityFilters {
   def filters = {
-    secureActions(controller: 'post', action: '(addPost|deletePost)') {
+    secureActions(controller: 'post', action: '(addPost|addPostAjax|deletePost)') {
       before = {
         if (params.impersonateId) {
             session.user = User.findByLoginId(params.impersonateId)
