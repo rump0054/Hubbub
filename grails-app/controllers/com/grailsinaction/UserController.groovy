@@ -3,10 +3,24 @@ package com.grailsinaction
 class UserController {
   static scaffold = true
 
+  def mailService
+
   static navigation = [
     [group:'tabs', action: 'search', order: 90],
     [action: 'register', order: 99, isVisible: { true }]
   ]
+
+  def welcomeEmail(String email) {
+    if (email) {
+      mailService.sendMail {
+        to email
+        subject "Welcome to Hubbub!"
+        html view: "/user/welcomeEmail", model: [ email: email ]
+      }
+      flash.message = "Welcome aboard"
+    }
+    redirect(uri: "/")
+  }  
 
   def search() {}
 

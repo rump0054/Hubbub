@@ -68,6 +68,7 @@ grails.project.dependency.resolution = {
         compile ":scaffolding:2.0.2"
         compile ':cache:1.1.1'
         compile ":fields:1.4"
+        compile ":mail:1.0.1"
 
         // plugins needed at runtime but not for compilation
         runtime ":hibernate:3.6.10.9" // or ":hibernate4:4.3.4"
@@ -90,5 +91,6 @@ grails.project.dependency.resolution = {
         //compile ":handlebars-asset-pipeline:1.3.0.1"
 
         test ":geb:$gebVersion"
+        test ":dumbster:0.2"
     }
 }

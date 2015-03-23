@@ -90,6 +90,9 @@ grails.hibernate.pass.readonly = false
 grails.hibernate.osiv.readonly = false
 
 environments {
+    test {
+      dumbster.enabled = true
+    }
     development {
         grails.logging.jul.usebridge = true
     }
@@ -119,3 +122,18 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+grails {
+  mail {
+    host = "smtp.gmail.com"
+    port = 465
+    username = "erumppe@gmail.com"
+    password = "Blueboy1!"
+    props = ["mail.smtp.auth":"true",
+             "mail.smtp.socketFactory.port":"465",
+             "mail.smtp.socketFactory.class":"javax.net.ssl.SSLSocketFactory",
+             "mail.smtp.socketFactory.fallback":"false"]
+  }
+}
+
+//grails.mail.default.from="hubbub@grailsinaction.com"

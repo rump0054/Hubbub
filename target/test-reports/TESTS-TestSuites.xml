@@ -1,34 +1,58 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="0" name="TimelineFunctionalSpec" package="com.grailsinaction" tests="2" time="15.977" timestamp="2015-03-23T17:35:29">
+  <testsuite errors="1" failures="0" hostname="TOSHIBA" id="0" name="UserIntegrationSpec" package="com.grailsinaction" tests="6" time="2.247" timestamp="2015-03-23T18:37:10">
       <properties />
 
-      <testcase classname="com.grailsinaction.TimelineFunctionalSpec" name="Check that timeline loads for user &apos;phil&apos;" time="10.729" />
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="0.428" />
 
-      <testcase classname="com.grailsinaction.TimelineFunctionalSpec" name="Submitting a new post" time="5.237" />
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Updating a saved user changes its properties" time="0.011" />
 
-      <system-out><![CDATA[--Output from Check that timeline loads for user 'phil'--
---Output from Submitting a new post--
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Deleting an existing user removes it from the databse" time="0.03" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving a user with invalid properties causes an error" time="0.076" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Recovering from a failed save by fixing invalid properties" time="0.013" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Welcome email is generated and sent" time="1.687">
+          <error message="Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 534-5.7.14 &lt;https://accounts.google.com/ContinueSignIn?sarp=1&amp;scc=1&amp;plt=AKgnsbslm&#xa;534-5.7.14 Co4u7IN9ixZIWlvypcl_9Qi9_DWxVZVMwjkhh-Wh1ozfinpyzw1TT5Nfa5rg9PfK9QNM6B&#xa;534-5.7.14 -y_cUechkqK3Mm6n8FM43K3MaQBZu0sNrvFtJZqUELFPAFOe-jni9kXSNPbZSedr34zkv7&#xa;534-5.7.14 k5Gx1K3eh6N_m7He2AoZM4uikcn9lj9Ky9cOyvgnsiiPV_cZV9g-u1ocFWiCwwaRuC8W44&#xa;534-5.7.14 QGofskA&gt; Please log in via your web browser and then try again.&#xa;534-5.7.14 Learn more at&#xa;534 5.7.14 https://support.google.com/mail/bin/answer.py?answer=78754 p143sm1089256ioe.33 - gsmtp&#xa;" type="org.springframework.mail.MailAuthenticationException">org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 534-5.7.14 &lt;https://accounts.google.com/ContinueSignIn?sarp=1&amp;scc=1&amp;plt=AKgnsbslm
+534-5.7.14 Co4u7IN9ixZIWlvypcl_9Qi9_DWxVZVMwjkhh-Wh1ozfinpyzw1TT5Nfa5rg9PfK9QNM6B
+534-5.7.14 -y_cUechkqK3Mm6n8FM43K3MaQBZu0sNrvFtJZqUELFPAFOe-jni9kXSNPbZSedr34zkv7
+534-5.7.14 k5Gx1K3eh6N_m7He2AoZM4uikcn9lj9Ky9cOyvgnsiiPV_cZV9g-u1ocFWiCwwaRuC8W44
+534-5.7.14 QGofskA&gt; Please log in via your web browser and then try again.
+534 5.7.14 https://support.google.com/mail/bin/answer.py?answer=78754 p143sm1089256ioe.33 - gsmtp
+
+	at grails.plugin.mail.MailMessageBuilder.sendMessage(MailMessageBuilder.groovy:104)
+	at grails.plugin.mail.MailService.sendMail(MailService.groovy:41)
+	at com.grailsinaction.UserController.welcomeEmail(UserController.groovy:15)
+	at com.grailsinaction.UserIntegrationSpec.Welcome email is generated and sent(UserIntegrationSpec.groovy:101)
+Caused by: javax.mail.AuthenticationFailedException: 534-5.7.14 &lt;https://accounts.google.com/ContinueSignIn?sarp=1&amp;scc=1&amp;plt=AKgnsbslm
+534-5.7.14 Co4u7IN9ixZIWlvypcl_9Qi9_DWxVZVMwjkhh-Wh1ozfinpyzw1TT5Nfa5rg9PfK9QNM6B
+534-5.7.14 -y_cUechkqK3Mm6n8FM43K3MaQBZu0sNrvFtJZqUELFPAFOe-jni9kXSNPbZSedr34zkv7
+534-5.7.14 k5Gx1K3eh6N_m7He2AoZM4uikcn9lj9Ky9cOyvgnsiiPV_cZV9g-u1ocFWiCwwaRuC8W44
+534-5.7.14 QGofskA&gt; Please log in via your web browser and then try again.
+534 5.7.14 https://support.google.com/mail/bin/answer.py?answer=78754 p143sm1089256ioe.33 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:648)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:583)
+	at javax.mail.Service.connect(Service.java:291)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+--Output from Deleting an existing user removes it from the databse--
+--Output from Saving a user with invalid properties causes an error--
+--Output from Recovering from a failed save by fixing invalid properties--
+--Output from Welcome email is generated and sent--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from Check that timeline loads for user 'phil'--
---Output from Submitting a new post--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="1" name="TimelinePageFunctionalSpec" package="com.grailsinaction" tests="2" time="5.909" timestamp="2015-03-23T17:35:45">
-      <properties />
-
-      <testcase classname="com.grailsinaction.TimelinePageFunctionalSpec" name="Does timeline load for user &apos;phil&apos;" time="1.219" />
-
-      <testcase classname="com.grailsinaction.TimelinePageFunctionalSpec" name="Submitting a new post" time="4.687" />
-
-      <system-out><![CDATA[--Output from Does timeline load for user 'phil'--
---Output from Submitting a new post--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from Does timeline load for user 'phil'--
---Output from Submitting a new post--
+      <system-err><![CDATA[--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+--Output from Deleting an existing user removes it from the databse--
+--Output from Saving a user with invalid properties causes an error--
+--Output from Recovering from a failed save by fixing invalid properties--
+--Output from Welcome email is generated and sent--
 ]]></system-err>
 
   </testsuite>
