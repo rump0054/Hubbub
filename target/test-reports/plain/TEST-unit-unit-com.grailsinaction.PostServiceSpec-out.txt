@@ -1,2 +1,0 @@
---Output from Valid posts get saved and added to the user--
---Output from Invalid posts generate exceptional outcomes--

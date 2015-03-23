@@ -47,7 +47,7 @@ grails.project.dependency.resolution = {
     }
 
     def gebVersion = '0.9.2'
-    def seleniumVersion = '2.41.0'
+    def seleniumVersion = '2.45.0' //'2.41.0'
 
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.

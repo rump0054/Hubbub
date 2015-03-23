@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Login Form</title>
+  <title>Sign into Hubbub</title>
   <meta name="layout" content="main">
 </head>
 <body>

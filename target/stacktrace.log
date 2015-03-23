@@ -14988,3 +14988,1602 @@ groovy.lang.MissingMethodException: No signature of method: com.grailsinaction.P
 Possible solutions: wait(), save(), find(), wait(long), find(com.grailsinaction.Profile), find(groovy.lang.Closure)
 	at com.grailsinaction.Profile$__clinit__closure1$$EP0xdoj1.doCall(Profile.groovy:25)
 	at java.lang.Thread.run(Thread.java:662)
+2015-03-23 11:22:33,283 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrConstructorNewInstance(ReflectiveInterceptor.java:986)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:22:33,294 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:22:33,330 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:22:33,333 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:22:33,368 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:22:33,370 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:22:33,464 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrConstructorNewInstance(ReflectiveInterceptor.java:986)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:22:33,467 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:22:33,486 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:22:33,492 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:22:33,500 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:22:33,502 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:30:47,640 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrConstructorNewInstance(ReflectiveInterceptor.java:986)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:30:47,650 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:30:47,667 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:30:47,670 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:30:47,697 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:30:47,700 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:30:47,806 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrConstructorNewInstance(ReflectiveInterceptor.java:986)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:30:47,809 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:30:47,836 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:30:47,843 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:30:47,849 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:30:47,852 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:45:36,513 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.internal.SocketLock.lock(SocketLock.java:98)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:84)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrConstructorNewInstance(ReflectiveInterceptor.java:986)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:45:36,546 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.internal.SocketLock.lock(SocketLock.java:98)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:84)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:45:36,563 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.internal.SocketLock.lock(SocketLock.java:98)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:84)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:45:36,566 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.internal.SocketLock.lock(SocketLock.java:98)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:84)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:45:36,598 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.internal.SocketLock.lock(SocketLock.java:98)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:84)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:45:36,600 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.internal.SocketLock.lock(SocketLock.java:98)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:84)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.Browser.go(Browser.groovy:394)
+	at geb.Browser.go(Browser.groovy:386)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelineFunctionalSpec.Check that timeline loads for user 'phil'(TimelineFunctionalSpec.groovy:8)
+2015-03-23 11:47:06,512 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrConstructorNewInstance(ReflectiveInterceptor.java:986)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 31 more
+2015-03-23 11:47:06,516 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrConstructorNewInstance(ReflectiveInterceptor.java:986)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:47:06,517 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 20 more
+2015-03-23 11:47:06,591 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 20 more
+2015-03-23 11:47:06,596 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:47:06,597 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 20 more
+2015-03-23 11:47:06,606 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 20 more
+2015-03-23 11:47:06,609 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+2015-03-23 11:47:06,610 [main] ERROR StackTrace  - Full Stack Trace:
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'TOSHIBA', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.6.0_33'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver_closure3(CachingDriverFactory.groovy:80)
+	at geb.driver.CachingDriverFactory$SimpleCache.get(CachingDriverFactory.groovy:30)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:79)
+	at geb.Configuration.createDriver(Configuration.groovy:354)
+	at geb.Configuration.getDriver(Configuration.groovy:343)
+	at geb.Browser.getDriver(Browser.groovy:105)
+	at geb.report.PageSourceReporter.getPageSource(PageSourceReporter.groovy:42)
+	at geb.report.PageSourceReporter.writePageSource(PageSourceReporter.groovy:38)
+	at geb.report.PageSourceReporter.writeReport(PageSourceReporter.groovy:29)
+	at geb.report.CompositeReporter.writeReport(CompositeReporter.groovy:31)
+	at geb.Browser.report(Browser.groovy:775)
+	at geb.spock.GebReportingSpec.report(GebReportingSpec.groovy:44)
+	at geb.spock.GebReportingSpec.cleanup(GebReportingSpec.groovy:39)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ed, setting schema version preference to 16
+1427129180507	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1427129180511	addons.manager	DEBUG	Async provider shutdown done
+1427129181103	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1427129181105	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1427129181107	addons.xpi	DEBUG	startup
+1427129181108	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\fxdriver@googlecode.com
+1427129181109	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\Erik\AppData\Local\Temp\anonymous5649519166553833212webdriver-profile\extensions\webdriver-staging
+1427129181110	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181110	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1427129181111	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1427129181111	addons.xpi	INFO	Mapping web2pdfextension@web2pdf.adobedotcom to C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\Browser\WCFirefoxExtn
+1427129181111	addons.xpi	INFO	Mapping {2D3F3651-74B9-4795-BDEC-6DA2F431CB62} to C:\ProgramData\Norton\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\N360_21.1.0.18\coFFPlgn
+1427129181112	addons.xpi	DEBUG	checkForChanges
+1427129181113	addons.xpi	DEBUG	Loaded add-on state from prefs: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181115	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1427129181116	addons.xpi	DEBUG	getInstallState changed: false, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\Erik\\AppData\\Local\\Temp\\anonymous5649519166553833212webdriver-profile\\extensions\\fxdriver@googlecode.com","e":false,"v":"2.41.0","st":1427129175516,"mt":1427129174970}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"36.0.4","st":1427128749238,"mt":1426913063000}},"winreg-app-global":{"web2pdfextension@web2pdf.adobedotcom":{"d":"C:\\Program Files (x86)\\Adobe\\Acrobat 10.0\\Acrobat\\Browser\\WCFirefoxExtn","e":false,"v":"1.2","st":1420578115062,"mt":1417630034000},"{2D3F3651-74B9-4795-BDEC-6DA2F431CB62}":{"d":"C:\\ProgramData\\Norton\\{0C55C096-0F1D-4F28-AAA2-85EF591126E7}\\N360_21.1.0.18\\coFFPlgn","e":false,"v":"2014.6.0.27","st":1426621642477,"mt":1426621642477}}}
+1427129181118	addons.xpi	DEBUG	No changes found
+1427129181121	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1427129181122	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+1427129181123	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1427129182559	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 20 more
+2015-03-23 11:55:16,883 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/codehaus/groovy/runtime/typehandling/ShortTypeHandling
+	at geb.ConfigurationLoader.getDefaultEnvironment(ConfigurationLoader.groovy:242)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.ConfigurationLoader.<init>(ConfigurationLoader.groovy:72)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrConstructorNewInstance(ReflectiveInterceptor.java:986)
+	at geb.spock.GebSpec.createConf(GebSpec.groovy:32)
+	at geb.spock.GebSpec.createBrowser(GebSpec.groovy:36)
+	at geb.spock.GebSpec.getBrowser(GebSpec.groovy:41)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:54)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.spock.GebReportingSpec.setupSpec(GebReportingSpec.groovy:30)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.runtime.typehandling.ShortTypeHandling
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:648)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:758)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:746)
+	... 10 more
+2015-03-23 11:55:16,889 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.runtime.typehandling.ShortTypeHandling
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:648)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:758)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:746)
+	at geb.ConfigurationLoader.getDefaultEnvironment(ConfigurationLoader.groovy:242)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.ConfigurationLoader.<init>(ConfigurationLoader.groovy:72)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrConstructorNewInstance(ReflectiveInterceptor.java:986)
+	at geb.spock.GebSpec.createConf(GebSpec.groovy:32)
+	at geb.spock.GebSpec.createBrowser(GebSpec.groovy:36)
+	at geb.spock.GebSpec.getBrowser(GebSpec.groovy:41)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:54)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.spock.GebReportingSpec.setupSpec(GebReportingSpec.groovy:30)
+2015-03-23 11:55:16,889 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/codehaus/groovy/runtime/typehandling/ShortTypeHandling
+	at geb.ConfigurationLoader.getDefaultEnvironment(ConfigurationLoader.groovy:242)
+	at geb.ConfigurationLoader.<init>(ConfigurationLoader.groovy:72)
+	at geb.spock.GebSpec.createConf(GebSpec.groovy:32)
+	at geb.spock.GebSpec.createBrowser(GebSpec.groovy:36)
+	at geb.spock.GebSpec.getBrowser(GebSpec.groovy:41)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:54)
+	at geb.spock.GebReportingSpec.setupSpec(GebReportingSpec.groovy:30)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.runtime.typehandling.ShortTypeHandling
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 7 more
+2015-03-23 11:55:16,893 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/codehaus/groovy/runtime/typehandling/ShortTypeHandling
+	at geb.ConfigurationLoader.getDefaultEnvironment(ConfigurationLoader.groovy:242)
+	at geb.ConfigurationLoader.<init>(ConfigurationLoader.groovy:72)
+	at geb.spock.GebSpec.createConf(GebSpec.groovy:32)
+	at geb.spock.GebSpec.createBrowser(GebSpec.groovy:36)
+	at geb.spock.GebSpec.getBrowser(GebSpec.groovy:41)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:54)
+	at geb.spock.GebReportingSpec.setupSpec(GebReportingSpec.groovy:30)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.runtime.typehandling.ShortTypeHandling
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 7 more
+2015-03-23 11:55:16,893 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.runtime.typehandling.ShortTypeHandling
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at geb.ConfigurationLoader.getDefaultEnvironment(ConfigurationLoader.groovy:242)
+	at geb.ConfigurationLoader.<init>(ConfigurationLoader.groovy:72)
+	at geb.spock.GebSpec.createConf(GebSpec.groovy:32)
+	at geb.spock.GebSpec.createBrowser(GebSpec.groovy:36)
+	at geb.spock.GebSpec.getBrowser(GebSpec.groovy:41)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:54)
+	at geb.spock.GebReportingSpec.setupSpec(GebReportingSpec.groovy:30)
+2015-03-23 11:55:16,894 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/codehaus/groovy/runtime/typehandling/ShortTypeHandling
+	at geb.ConfigurationLoader.getDefaultEnvironment(ConfigurationLoader.groovy:242)
+	at geb.ConfigurationLoader.<init>(ConfigurationLoader.groovy:72)
+	at geb.spock.GebSpec.createConf(GebSpec.groovy:32)
+	at geb.spock.GebSpec.createBrowser(GebSpec.groovy:36)
+	at geb.spock.GebSpec.getBrowser(GebSpec.groovy:41)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:54)
+	at geb.spock.GebReportingSpec.setupSpec(GebReportingSpec.groovy:30)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.runtime.typehandling.ShortTypeHandling
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 7 more
+2015-03-23 11:55:16,915 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/codehaus/groovy/runtime/typehandling/ShortTypeHandling
+	at geb.ConfigurationLoader.getDefaultEnvironment(ConfigurationLoader.groovy:242)
+	at geb.ConfigurationLoader.<init>(ConfigurationLoader.groovy:72)
+	at geb.spock.GebSpec.createConf(GebSpec.groovy:32)
+	at geb.spock.GebSpec.createBrowser(GebSpec.groovy:36)
+	at geb.spock.GebSpec.getBrowser(GebSpec.groovy:41)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:54)
+	at geb.spock.GebReportingSpec.setupSpec(GebReportingSpec.groovy:30)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.runtime.typehandling.ShortTypeHandling
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 7 more
+2015-03-23 11:55:16,916 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.codehaus.groovy.runtime.typehandling.ShortTypeHandling
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at geb.ConfigurationLoader.getDefaultEnvironment(ConfigurationLoader.groovy:242)
+	at geb.ConfigurationLoader.<init>(ConfigurationLoader.groovy:72)
+	at geb.spock.GebSpec.createConf(GebSpec.groovy:32)
+	at geb.spock.GebSpec.createBrowser(GebSpec.groovy:36)
+	at geb.spock.GebSpec.getBrowser(GebSpec.groovy:41)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:54)
+	at geb.spock.GebReportingSpec.setupSpec(GebReportingSpec.groovy:30)
+2015-03-23 11:55:16,917 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NoClassDefFoundError: org/codehaus/groovy/runtime/typehandling/ShortTypeHandling
+	at geb.ConfigurationLoader.getDefaultEnvironment(ConfigurationLoader.groovy:242)
+	at geb.ConfigurationLoader.<init>(ConfigurationLoader.groovy:72)
+	at geb.spock.GebSpec.createConf(GebSpec.groovy:32)
+	at geb.spock.GebSpec.createBrowser(GebSpec.groovy:36)
+	at geb.spock.GebSpec.getBrowser(GebSpec.groovy:41)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:54)
+	at geb.spock.GebReportingSpec.setupSpec(GebReportingSpec.groovy:30)
+Caused by: java.lang.ClassNotFoundException: org.codehaus.groovy.runtime.typehandling.ShortTypeHandling
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 7 more
+2015-03-23 12:32:05,535 [main] ERROR StackTrace  - Full Stack Trace:
+Assertion failed: 
+
+title.contains("Sign into Hubbub")
+|     |
+|     false
+Hubbub » Login Form
+
+	at com.grailsinaction.pages.LoginPage._clinit__closure2(LoginPage.groovy:13)
+	at com.grailsinaction.pages.LoginPage._clinit__closure2(LoginPage.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:165)
+	at geb.Page.verifyAt(Page.groovy:133)
+	at geb.Browser.doAt(Browser.groovy:358)
+	at geb.Browser.at(Browser.groovy:289)
+	at geb.Browser.to(Browser.groovy:436)
+	at geb.Browser.to(Browser.groovy:412)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1254)
+	at com.grailsinaction.TimelinePageFunctionalSpec.login(TimelinePageFunctionalSpec.groovy:29)
+	at com.grailsinaction.TimelinePageFunctionalSpec.Submitting a new post(TimelinePageFunctionalSpec.groovy:17)
+2015-03-23 12:32:05,574 [main] ERROR StackTrace  - Full Stack Trace:
+Assertion failed: 
+
+title.contains("Sign into Hubbub")
+|     |
+|     false
+Hubbub » Login Form
+
+	at com.grailsinaction.pages.LoginPage._clinit__closure2(LoginPage.groovy:13)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:165)
+	at geb.Page.verifyAt(Page.groovy:133)
+	at geb.Browser.doAt(Browser.groovy:358)
+	at geb.Browser.at(Browser.groovy:289)
+	at geb.Browser.to(Browser.groovy:436)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelinePageFunctionalSpec.login(TimelinePageFunctionalSpec.groovy:29)
+	at com.grailsinaction.TimelinePageFunctionalSpec.Submitting a new post(TimelinePageFunctionalSpec.groovy:17)
+2015-03-23 12:32:05,578 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Assertion failed: 
+
+title.contains("Sign into Hubbub")
+|     |
+|     false
+Hubbub » Login Form
+
+	at com.grailsinaction.pages.LoginPage._clinit__closure2(LoginPage.groovy:13)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:165)
+	at geb.Page.verifyAt(Page.groovy:133)
+	at geb.Browser.doAt(Browser.groovy:358)
+	at geb.Browser.at(Browser.groovy:289)
+	at geb.Browser.to(Browser.groovy:436)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelinePageFunctionalSpec.login(TimelinePageFunctionalSpec.groovy:29)
+	at com.grailsinaction.TimelinePageFunctionalSpec.Submitting a new post(TimelinePageFunctionalSpec.groovy:17)
+2015-03-23 12:32:05,578 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Assertion failed: 
+
+title.contains("Sign into Hubbub")
+|     |
+|     false
+Hubbub » Login Form
+
+	at com.grailsinaction.pages.LoginPage._clinit__closure2(LoginPage.groovy:13)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:165)
+	at geb.Page.verifyAt(Page.groovy:133)
+	at geb.Browser.doAt(Browser.groovy:358)
+	at geb.Browser.at(Browser.groovy:289)
+	at geb.Browser.to(Browser.groovy:436)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelinePageFunctionalSpec.login(TimelinePageFunctionalSpec.groovy:29)
+	at com.grailsinaction.TimelinePageFunctionalSpec.Submitting a new post(TimelinePageFunctionalSpec.groovy:17)
+2015-03-23 12:32:05,587 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Assertion failed: 
+
+title.contains("Sign into Hubbub")
+|     |
+|     false
+Hubbub » Login Form
+
+	at com.grailsinaction.pages.LoginPage._clinit__closure2(LoginPage.groovy:13)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:165)
+	at geb.Page.verifyAt(Page.groovy:133)
+	at geb.Browser.doAt(Browser.groovy:358)
+	at geb.Browser.at(Browser.groovy:289)
+	at geb.Browser.to(Browser.groovy:436)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelinePageFunctionalSpec.login(TimelinePageFunctionalSpec.groovy:29)
+	at com.grailsinaction.TimelinePageFunctionalSpec.Submitting a new post(TimelinePageFunctionalSpec.groovy:17)
+2015-03-23 12:32:05,588 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Assertion failed: 
+
+title.contains("Sign into Hubbub")
+|     |
+|     false
+Hubbub » Login Form
+
+	at com.grailsinaction.pages.LoginPage._clinit__closure2(LoginPage.groovy:13)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:165)
+	at geb.Page.verifyAt(Page.groovy:133)
+	at geb.Browser.doAt(Browser.groovy:358)
+	at geb.Browser.at(Browser.groovy:289)
+	at geb.Browser.to(Browser.groovy:436)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at com.grailsinaction.TimelinePageFunctionalSpec.login(TimelinePageFunctionalSpec.groovy:29)
+	at com.grailsinaction.TimelinePageFunctionalSpec.Submitting a new post(TimelinePageFunctionalSpec.groovy:17)
