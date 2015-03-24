@@ -137,3 +137,5 @@ grails {
 }
 
 //grails.mail.default.from="hubbub@grailsinaction.com"
+grails.plugin.databasemigration.updateOnStart = false //true
+grails.plugin.databasemigration.updateOnStartFileNames = ['changelog.groovy']
