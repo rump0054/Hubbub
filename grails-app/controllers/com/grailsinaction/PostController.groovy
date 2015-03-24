@@ -1,5 +1,7 @@
 package com.grailsinaction
 
+import grails.plugin.cache.*
+
 class PostController {
   static defaultAction = 'home'
   static scaffold = true
@@ -19,6 +21,7 @@ class PostController {
     redirect(action: 'timeline', params: params)
   }
 
+  @Cacheable('globalTimeline')
   def global() {
     [ posts: Post.list(params), postCount: Post.count() ]
   }
@@ -32,6 +35,7 @@ class PostController {
     }
   }
 
+  @CachePut(value='userTimeline',key='#session.user.loginId')
   def personal() {
     if (!session.user) {
         redirect controller: "login", action: "form"
@@ -54,6 +58,7 @@ class PostController {
     redirect(action: 'timeline', id: id)
   }   
 
+  @CacheEvict(value='userTimeline',key='#session.user.loginId')
   def addPostAjax(String content) {
     try {
       def newPost = postService.createPost(session.user.loginId, content)
