@@ -65,8 +65,8 @@ class UserControllerSpec extends Specification {
         loginId = "glen_a_smith"
         fullName = "Glen Smith"
         email = "glen@bytecode.com.au"
-        password = "password"
-        passwordRepeat = "password"
+        password = "winning"
+        passwordRepeat = "winning"
     }
 
     and: "which has been validated"
