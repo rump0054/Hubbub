@@ -1,17 +1,20 @@
 package com.grailsinaction
 
 class Post {
-  static searchable = true
-  
   String content
   Date dateCreated
 
   static belongsTo = [ user: User ]
   static hasMany = [ tags: Tag ]
 
-    static constraints = {
-      content blank: false
-    }
+  static constraints = {
+    content blank: false
+  }
+
+  static searchable = {
+    user component: true
+    spellCheck "include"
+  }
 
   static mapping = {
     sort dateCreated: "desc"

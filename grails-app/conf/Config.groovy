@@ -140,18 +140,32 @@ grails {
 grails.plugin.databasemigration.updateOnStart = false //true
 grails.plugin.databasemigration.updateOnStartFileNames = ['changelog.groovy']
 
+searchable {
+    mirrorChanges = false
+    bulkIndexOnStartup = false
+}
+
 // Added by the Spring Security Core plugin:
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.grailsinaction.User'
+grails.plugin.springsecurity.userLookup.usernamePropertyName = 'loginId'
+grails.plugin.springsecurity.userLookup.passwordPropertyName = 'passwordHash'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.grailsinaction.UserRole'
 grails.plugin.springsecurity.authority.className = 'com.grailsinaction.Role'
-grails.plugin.springsecurity.controllerAnnotations.staticRules = [
+grails.plugin.springsecurity.rejectIfNoRule = false
+grails.plugin.springsecurity.securityConfigType = 'InterceptUrlMap'
+grails.plugin.springsecurity.interceptUrlMap = [
 	'/':                              ['permitAll'],
-	'/index':                         ['permitAll'],
-	'/index.gsp':                     ['permitAll'],
-	'/assets/**':                     ['permitAll'],
+  '/console/**':                    ['permitAll'],
+	'/post/global':                   ['permitAll'],
+	'/user/**':                       ['permitAll'],
+	'/login/**':                      ['permitAll'],
+  '/logout/**':                     ['permitAll'],
 	'/**/js/**':                      ['permitAll'],
 	'/**/css/**':                     ['permitAll'],
 	'/**/images/**':                  ['permitAll'],
-	'/**/favicon.ico':                ['permitAll']
+	'/**/favicon.ico':                ['permitAll'],
+  '/**':                            ['isAuthenticated()']
 ]
 
+grails.plugin.springsecurity.auth.loginFormUrl = "/login/form"
+grails.plugin.springsecurity.successHandler.defaultTargetUrl = "/timeline"

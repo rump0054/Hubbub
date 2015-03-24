@@ -12,6 +12,7 @@ class PostController {
   ]
 
   def postService
+  def springSecurityService
 
   def home() {
     if (!params.id) {
