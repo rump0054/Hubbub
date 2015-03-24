@@ -35,7 +35,7 @@ class PostController {
     }
   }
 
-  @CachePut(value='userTimeline',key='#session.user.loginId')
+  //@CachePut(value='userTimeline',key='#session.user.loginId')
   def personal() {
     if (!session.user) {
         redirect controller: "login", action: "form"
@@ -58,7 +58,7 @@ class PostController {
     redirect(action: 'timeline', id: id)
   }   
 
-  @CacheEvict(value='userTimeline',key='#session.user.loginId')
+  //@CacheEvict(value='userTimeline',key='#session.user.loginId')
   def addPostAjax(String content) {
     try {
       def newPost = postService.createPost(session.user.loginId, content)

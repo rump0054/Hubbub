@@ -28,11 +28,12 @@ class PostIntegrationSpec extends Specification {
 
       given: "A user with several posts"
       def user = new User(loginId: 'joe', password: 'secret')
+      user.save(failOnError: true)
+
       user.addToPosts(new Post(content: "First"))
       user.addToPosts(new Post(content: "Second"))
       user.addToPosts(new Post(content: "Third"))
-      user.save(failOnError: true)
-
+      
       when: "The user is retrieved by their id"
       def foundUser = User.get(user.id)
       def sortedPostContent = foundUser.posts.collect {
