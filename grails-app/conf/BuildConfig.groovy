@@ -71,6 +71,7 @@ grails.project.dependency.resolution = {
         compile ":fields:1.4"
         compile ":mail:1.0.1"
         compile ":searchable:0.6.9"
+        compile ":console:1.5.4"
 
         // plugins needed at runtime but not for compilation
         runtime ":hibernate:3.6.10.9" // or ":hibernate4:4.3.4"
