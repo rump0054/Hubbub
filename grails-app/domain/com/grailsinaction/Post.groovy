@@ -1,6 +1,8 @@
 package com.grailsinaction
 
 class Post {
+  static searchable = true
+  
   String content
   Date dateCreated
 
