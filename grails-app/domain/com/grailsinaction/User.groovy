@@ -1,29 +1,36 @@
 package com.grailsinaction
 
 class User {
-  static searchable = {
-    except = ['password']
-  }
+    String loginId
+    String passwordHash
+    boolean enabled = true
+    boolean accountExpired
+    boolean accountLocked
+    boolean passwordExpired
+    Date dateCreated
 
-  String loginId
-  String password
-  Date dateCreated
+    static hasOne = [ profile: Profile ]
+    static hasMany = [ posts: Post, tags: Tag, following: User ]
 
-  static hasOne = [ profile: Profile ]
-  static hasMany = [ posts: Post, tags: Tag, following: User ]
+    static transients = ['springSecurityService']
 
-  static constraints = {
-    loginId size: 3..20, unique: true, nullable: false
-    password size: 6..8, nullable: false, validator: { passwd, user ->
-      passwd != user.loginId
+    static constraints = {
+        loginId size: 3..20, unique: true, blank: false
+        profile nullable: true
     }
-    profile nullable: true
-  }
 
-  static mapping = {
-    posts sort: 'dateCreated'
-  }
+    static searchable = {
+        except = ["passwordHash"]
+    }
 
-  String toString() { return "User $loginId (id: $id)" }
-  String getDisplayString() { return loginId }
+    static mapping = {
+        posts sort: "dateCreated", order: "desc"
+    }
+
+    Set<Role> getAuthorities() {
+        UserRole.findAllByUser(this).collect { it.role } as Set
+    }
+
+    String toString() { return "User $loginId (id: $id)" }
+    String getDisplayString() { return loginId }
 }
