@@ -14,7 +14,7 @@ class UserControllerSpec extends Specification {
         given: "a set of user parameters"
         params.with {
             loginId = "glen_a_smith"
-            password = "winnning"
+            passwordHash = "winnning"
         }
 
         and: "a set of profile parameters"
@@ -95,7 +95,5 @@ class UserControllerSpec extends Specification {
         User.count() == 1
         Profile.count() == 1
 
-    } 
-    
+    }    
 }
-

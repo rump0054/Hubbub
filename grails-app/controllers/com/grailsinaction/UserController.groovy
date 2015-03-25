@@ -4,6 +4,7 @@ class UserController {
   static scaffold = true
 
   def mailService
+  def springSecurityService
 
   static navigation = [
     [group:'tabs', action: 'search', order: 90],
@@ -36,9 +37,10 @@ class UserController {
   def register() {
     if (request.method == 'POST') {
       def user = new User(params)
+      user.passwordHash = springSecurityService.encodePassword(params.password)
       if (user.validate()) {
         user.save()
-        flash.message = "Successfully Create User"
+        flash.message = "Successfully Created User"
         redirect(uri: '/')
       } else {
         flash.message = "Error Registering User"
@@ -52,11 +54,12 @@ class UserController {
       render view: 'register', model: [ user: urc ]
     } else {
       def user = new User(urc.properties)
+      user.passwordHash = springSecurityService.encodePassword(urc.password)
       user.profile = new Profile(urc.properties)
       if (user.validate() && user.save()) {
         flash.message = "Welcome aboard, ${urc.fullName ?: urc.loginId}"
-        //redirect(uri: '/')
-        redirect action: 'profile', id: user.loginId
+        redirect(uri: '/')
+        //redirect action: 'profile', id: user.loginId
       } else {
         return [ user: urc ]
       }

@@ -19,8 +19,8 @@ class PostControllerSpec extends Specification {
 
     def "Get a users timeline given their id"() {
         given: "A user with posts in the db"
-        User chuck = new User(loginId: "chuck_norris")
-        chuck.passwordHash = "ksadhfkasjdfh"
+        def chuck = new User(loginId: "chuck_norris",
+                    passwordHash: mockSecurityService.encodePassword("highkick"))
         chuck.addToPosts(new Post(content: "A first post"))
         chuck.addToPosts(new Post(content: "A second post"))
         chuck.save(failOnError: true)
@@ -63,7 +63,7 @@ class PostControllerSpec extends Specification {
         def result = controller.addPost("Mock Post")
 
         then: "redirected to timeline, flash message tells us all is well"
-        flash.message ==~ /Added new post: Mock.*/
+        flash.message ==~ /Added new post: Mock Post/
         response.redirectedUrl == '/users/joe_cool'   
 
         // Without the custom URL mapping, the check would be this:

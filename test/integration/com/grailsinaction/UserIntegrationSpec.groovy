@@ -55,7 +55,7 @@ class UserIntegrationSpec extends Specification {
     def "Saving a user with invalid properties causes an error"() {
 
         given: "A user which fails several field validations"
-        def user = new User(loginId: 'me', passwordHash: 'tiny')
+        def user = new User(loginId: 'me')
 
         when:  "The user is validated"
         user.validate()
@@ -75,7 +75,7 @@ class UserIntegrationSpec extends Specification {
 
         given: "A user that has invalid properties"
         def chuck = new User(loginId: 'me', passwordHash: 'tiny')
-        assert chuck.save()  == null
+        chuck.save()
         assert chuck.hasErrors()
 
         when: "We fix the invalid properties"
@@ -104,27 +104,5 @@ class UserIntegrationSpec extends Specification {
         2 == joe.following.size()
         1 == jill.following.size()
         
-    }
-
-    def "Welcome email is generated and sent"() {
-
-        given: "An empty inbox"
-        dumbster.reset()
-
-        and: "a user controller"
-        def userController = new UserController()
-
-        when: "A welcome email is sent"
-        userController.welcomeEmail("tester@email.com")
-
-
-        then: "It appears in their inbox"
-        dumbster.messageCount == 1
-        def msg = dumbster.getMessages().first()
-        msg.subject ==  "Welcome to Hubbub!"
-        msg.to == "tester@email.com"
-        msg.body =~ /The Hubbub Team/
-
-    }
-    
+    }    
 }

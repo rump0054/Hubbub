@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="0" name="AccessControlFunctionalSpec" package="com.grailsinaction" tests="2" time="13.171" timestamp="2015-03-25T15:50:22">
+  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="0" name="AccessControlFunctionalSpec" package="com.grailsinaction" tests="2" time="15.299" timestamp="2015-03-25T17:22:50">
       <properties />
 
-      <testcase classname="com.grailsinaction.AccessControlFunctionalSpec" name="Anonymous access to home page" time="8.707" />
+      <testcase classname="com.grailsinaction.AccessControlFunctionalSpec" name="Anonymous access to home page" time="10.85" />
 
-      <testcase classname="com.grailsinaction.AccessControlFunctionalSpec" name="Anonymous access to restricted page" time="4.456" />
+      <testcase classname="com.grailsinaction.AccessControlFunctionalSpec" name="Anonymous access to restricted page" time="4.445" />
 
       <system-out><![CDATA[--Output from Anonymous access to home page--
 --Output from Anonymous access to restricted page--
@@ -13,38 +13,6 @@
 
       <system-err><![CDATA[--Output from Anonymous access to home page--
 --Output from Anonymous access to restricted page--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="1" name="TimelineFunctionalSpec" package="com.grailsinaction" tests="2" time="6.204" timestamp="2015-03-25T15:50:35">
-      <properties />
-
-      <testcase classname="com.grailsinaction.TimelineFunctionalSpec" name="Does timeline load for user &apos;phil&apos;" time="2.397" />
-
-      <testcase classname="com.grailsinaction.TimelineFunctionalSpec" name="Submitting a new post" time="3.78" />
-
-      <system-out><![CDATA[--Output from Does timeline load for user 'phil'--
---Output from Submitting a new post--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from Does timeline load for user 'phil'--
---Output from Submitting a new post--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="2" name="TimelinePageFunctionalSpec" package="com.grailsinaction" tests="2" time="6.162" timestamp="2015-03-25T15:50:42">
-      <properties />
-
-      <testcase classname="com.grailsinaction.TimelinePageFunctionalSpec" name="Does timeline load for user &apos;phil&apos;" time="2.461" />
-
-      <testcase classname="com.grailsinaction.TimelinePageFunctionalSpec" name="Submitting a new post" time="3.699" />
-
-      <system-out><![CDATA[--Output from Does timeline load for user 'phil'--
---Output from Submitting a new post--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from Does timeline load for user 'phil'--
---Output from Submitting a new post--
 ]]></system-err>
 
   </testsuite>
