@@ -22,9 +22,14 @@ class PostController {
     redirect(action: 'timeline', params: params)
   }
 
-  @Cacheable('globalTimeline')
+  //@Cacheable('globalTimeline')
   def global() {
-    [ posts: Post.list(params), postCount: Post.count() ]
+    if (springSecurityService.isLoggedIn()) {
+      def user = springSecurityService.currentUser
+      [ posts: Post.list(params), postCount: Post.count(), user : user ]
+    } else {
+      [ posts: Post.list(params), postCount: Post.count() ]
+    }
   }
 
   def timeline(String id) {
@@ -38,32 +43,29 @@ class PostController {
 
   //@CachePut(value='userTimeline',key='#session.user.loginId')
   def personal() {
-    if (!session.user) {
-        redirect controller: "login", action: "form"
-        return
-    } else {
-        // Need to reattach the user domain object to the session using
-        // the refresh() method.
-        render view: "timeline", model: [ user : session.user.refresh() ]
-    }
+    def user = springSecurityService.currentUser
+    render view: "timeline", model: [ user : user ]
   }
 
-  def addPost(String id, String content) {
+  def addPost(String content) {
+    def user = springSecurityService.currentUser
     try {
-      def newPost = postService.createPost(id, content)
+      def newPost = postService.createPost(user.loginId, content)
       flash.message = "Added new post: ${newPost.content}"
     } catch (PostException pe) {
       flash.message = pe.message
     }
 
-    redirect(action: 'timeline', id: id)
+    redirect(action: 'timeline', id: user.loginId)
   }   
 
   //@CacheEvict(value='userTimeline',key='#session.user.loginId')
+  //Todo: does not work right when used on the global timeline page properly
   def addPostAjax(String content) {
+    def user = springSecurityService.currentUser
     try {
-      def newPost = postService.createPost(session.user.loginId, content)
-      def recentPosts = Post.findAllByUser(session.user,
+      def newPost = postService.createPost(user.loginId, content)
+      def recentPosts = Post.findAllByUser(user,
         [sort: 'dateCreated', order: 'desc', max: 20])
       render template: 'postEntry', collection: recentPosts, var: 'post'
     } catch (PostException pe) {
@@ -71,7 +73,7 @@ class PostController {
         div(class: 'errors', pe.message)
       }
     }
-  }  
+  } 
 
   def tinyUrl(String fullUrl) {
     def origUrl = fullUrl?.encodeAsURL()

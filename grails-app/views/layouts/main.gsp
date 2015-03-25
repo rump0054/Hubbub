@@ -30,6 +30,13 @@
 
 			<div id="bd">
         <nav:render group="tabs"/>
+        <sec:ifLoggedIn>
+          <div style="width: 100px; float:right">
+          <g:form name="logoutForm" controller="logout" action="index">
+            <g:submitButton name="signOut" value="Sign Out"/>
+        </g:form>
+      </div>
+      </sec:ifLoggedIn>
 				<g:layoutBody/>
 			</div>
 

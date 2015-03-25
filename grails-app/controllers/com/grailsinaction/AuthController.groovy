@@ -1,6 +1,6 @@
 package com.grailsinaction
 
-class LoginController {
+class AuthController {
 
     def form(String id) {
       [ loginId: id ]

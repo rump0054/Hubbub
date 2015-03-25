@@ -7,6 +7,11 @@ class UrlMappings {
         }
     }
 
+    "/login/form" {
+      controller = "auth"
+      action = "form"
+    }
+
     "/timeline/chuck_norris" {
         controller = "post"
         action = "timeline"

@@ -168,4 +168,5 @@ grails.plugin.springsecurity.interceptUrlMap = [
 ]
 
 grails.plugin.springsecurity.auth.loginFormUrl = "/login/form"
+grails.plugin.springsecurity.defaultFailureUrl = "/login/form"
 grails.plugin.springsecurity.successHandler.defaultTargetUrl = "/timeline"
