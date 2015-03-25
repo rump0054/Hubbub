@@ -1,19 +1,26 @@
 package com.grailsinaction
 
+import grails.plugin.springsecurity.SpringSecurityService
 import grails.test.mixin.Mock
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 import spock.lang.Unroll
 
 @TestFor(PostController)
-@Mock([User, Post, LameSecurityFilters])
+@Mock([User, Post])
 class PostControllerSpec extends Specification {
+
+    def mockSecurityService
+
+    def setup() {
+        mockSecurityService = Mock(SpringSecurityService)
+        mockSecurityService.encodePassword(_ as String) >> "kjsdfhkshfalhlkdshflas"
+    }
 
     def "Get a users timeline given their id"() {
         given: "A user with posts in the db"
-        User chuck = new User(
-                loginId: "chuck_norris",
-                password: "password")
+        User chuck = new User(loginId: "chuck_norris")
+        chuck.passwordHash = "ksadhfkasjdfh"
         chuck.addToPosts(new Post(content: "A first post"))
         chuck.addToPosts(new Post(content: "A second post"))
         chuck.save(failOnError: true)
@@ -43,15 +50,17 @@ class PostControllerSpec extends Specification {
     }
 
     def "Adding a valid new post to the timeline"() {
-        given: "a mock post service"
+        given: " mock post and security services"
         def mockPostService = Mock(PostService)
         1 * mockPostService.createPost(_, _) >> new Post(content: "Mock Post")
         controller.postService = mockPostService
 
+        def securityService = Mock(SpringSecurityService)
+        _ * securityService.getCurrentUser() >> new User(loginId: "joe_cool")
+        controller.springSecurityService = securityService
+
         when:  "controller is invoked"
-        def result = controller.addPost(
-                "joe_cool",
-                "Posting up a storm")
+        def result = controller.addPost("Mock Post")
 
         then: "redirected to timeline, flash message tells us all is well"
         flash.message ==~ /Added new post: Mock.*/
@@ -63,28 +72,24 @@ class PostControllerSpec extends Specification {
     }
 
     def "Adding an invalid new post to the timeline"() {
-        given: "A user with posts in the db"
-        User chuck = new User(loginId: "chuck_norris", password: "password").save(failOnError: true)
-
-        and: "A post service that throws an exception with the given data"
+        given: "mock post and security services"
         def errorMsg = "Invalid or empty post"
         def mockPostService = Mock(PostService)
+        1 * mockPostService.createPost(_, _) >> {
+            throw new PostException(message: errorMsg)
+        }
         controller.postService = mockPostService
-        1 * mockPostService.createPost(chuck.loginId, null) >> { throw new PostException(message: errorMsg) }
 
-        and: "A loginId parameter"
-        params.id = chuck.loginId
-
-        and: "Some content for the post"
-        params.content = null
+        def securityService = Mock(SpringSecurityService)
+        _ * securityService.getCurrentUser() >> new User(loginId: "chuck_norris")
+        controller.springSecurityService = securityService
 
         when: "addPost is invoked"
-        def model = controller.addPost()
+        def model = controller.addPost(null)
 
-        then: "our flash message and redirect confirms the success"
+        then: "our flash message and redirect confirms the failure"
         flash.message == errorMsg
-        response.redirectedUrl == "/users/${chuck.loginId}"
-        Post.countByUser(chuck) == 0
+        response.redirectedUrl == "/users/chuck_norris"
 
         // Without the custom URL mapping, the check would be this:
 //        response.redirectedUrl == "/post/timeline/${chuck.loginId}"
@@ -108,16 +113,6 @@ class PostControllerSpec extends Specification {
         null        |   '/users/chuck_norris'              
                                                                    
     }
-    
-    def "Exercising security filter for unauthenticated user"() {
 
-        when:
-        withFilters(action: "addPost") {
-            controller.addPost("glen_a_smith", "A first post")
-        }
-
-        then:
-        response.redirectedUrl == '/login/form'
-
-    }
 }
+

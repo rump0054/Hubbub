@@ -6,6 +6,7 @@ import spock.lang.Stepwise
 class TimelineFunctionalSpec extends GebReportingSpec {
     def "Does timeline load for user 'phil'"() {
         when:
+        login "frankie", "testing"
         go "users/phil"
 
         then:
@@ -26,9 +27,9 @@ class TimelineFunctionalSpec extends GebReportingSpec {
     }
 
     private login(String username, String password) {
-        go "login/form"
-        $("input[name='loginId']").value(username)
-        $("input[name='password']").value(password)
+        go "auth/form"
+        $("input[name='j_username']").value(username)
+        $("input[name='j_password']").value(password)
         $("input[type='submit']").click()
     }
 }
