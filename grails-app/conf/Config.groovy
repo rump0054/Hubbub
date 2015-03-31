@@ -170,3 +170,11 @@ grails.plugin.springsecurity.interceptUrlMap = [
 grails.plugin.springsecurity.auth.loginFormUrl = "/login/form"
 grails.plugin.springsecurity.defaultFailureUrl = "/login/form"
 grails.plugin.springsecurity.successHandler.defaultTargetUrl = "/timeline"
+
+grails.plugin.springsecurity.useBasicAuth = true
+grails.plugin.springsecurity.basic.realmName = 'Hubbub'
+
+grails.plugin.springsecurity.filterChain.chainMap = [
+  '/api/**': 'JOINED_FILTERS',
+  '/**': 'JOINED_FILTERS, -basicAuthenticationFilter, -basicExceptionTranslationFilter'
+]
