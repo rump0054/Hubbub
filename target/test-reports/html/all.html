@@ -15,10 +15,12 @@
      - All tests </h1>
 <p class="intro">
                         Executed
-                        2
+                        5
                         tests
                     
-                        without a single error or failure!
+                        with
+                        5 errors
+                        .
                     </p>
 </div>
 <div class="grid_2 omega">
@@ -41,48 +43,138 @@
 </nav>
 </div>
 <div class="clear"></div>
-<div class="testsuite success">
+<div class="testsuite error">
 <div class="header">
-<h2>AccessControlFunctionalSpec</h2>
+<h2>PostRestControllerSpec</h2>
 <h3>
                         Executed
-                        2
+                        5
                         tests
                     
-                        without a single error or failure!
+                        with
+                        5 errors
+                        .
                     </h3>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Anonymous access to home page">
+<div class="testcase clearfix error grid_8 alpha omega" data-name="GET a list of posts as JSON">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">Anonymous access to home page</b>
+<span class="icon error"></span><b class="testname message error">GET a list of posts as JSON</b>
 </p>
-<p class="summary">Executed in 10.85 seconds.</p>
+<p class="summary">Executed in 4.162 seconds.</p>
 </div>
-<div class="grid_5 omega outputinfo"></div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Error parsing JSON</b>
+</p>
+<pre>org.codehaus.groovy.grails.web.converters.exceptions.ConverterException: Error parsing JSON
+	at grails.converters.JSON.parse(JSON.java:292)
+	at com.grailsinaction.PostRestControllerSpec.GET a list of posts as JSON(PostRestControllerSpec.groovy:31)
+Caused by: org.codehaus.groovy.grails.web.json.JSONException: Missing value. at character 0 of 
+	at grails.converters.JSON.parse(JSON.java:283)
+</pre>
+</div>
+</div>
 <div class="clear"></div>
 </div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="Anonymous access to restricted page">
+<div class="testcase clearfix error grid_8 alpha omega" data-name="GET a list of posts as XML">
 <div class="grid_3 alpha">
 <p>
-<span class="icon success"></span><b class="testname message success">Anonymous access to restricted page</b>
+<span class="icon error"></span><b class="testname message error">GET a list of posts as XML</b>
 </p>
-<p class="summary">Executed in 4.445 seconds.</p>
+<p class="summary">Executed in 0.201 seconds.</p>
 </div>
-<div class="grid_5 omega outputinfo"></div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Premature end of file.</b>
+</p>
+<pre>org.xml.sax.SAXParseException: Premature end of file.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at com.grailsinaction.PostRestControllerSpec.GET a list of posts as XML(PostRestControllerSpec.groovy:47)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix error grid_8 alpha omega" data-name="GET a single post as XML">
+<div class="grid_3 alpha">
+<p>
+<span class="icon error"></span><b class="testname message error">GET a single post as XML</b>
+</p>
+<p class="summary">Executed in 0.244 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">No signature of method: com.grailsinaction.PostRestController.show() is applicable for argument types: (java.lang.Integer, java.lang.String) values: [1, 1]
+Possible solutions: wait(), find(), grep(), any(), dump(), raw(java.lang.Object)</b>
+</p>
+<pre>groovy.lang.MissingMethodException: No signature of method: com.grailsinaction.PostRestController.show() is applicable for argument types: (java.lang.Integer, java.lang.String) values: [1, 1]
+Possible solutions: wait(), find(), grep(), any(), dump(), raw(java.lang.Object)
+	at com.grailsinaction.PostRestControllerSpec.GET a single post as XML(PostRestControllerSpec.groovy:60)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix error grid_8 alpha omega" data-name="POST a single post as JSON">
+<div class="grid_3 alpha">
+<p>
+<span class="icon error"></span><b class="testname message error">POST a single post as JSON</b>
+</p>
+<p class="summary">Executed in 0.411 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">No such property: springSecurityService for class: com.grailsinaction.PostRestController</b>
+</p>
+<pre>groovy.lang.MissingPropertyException: No such property: springSecurityService for class: com.grailsinaction.PostRestController
+	at com.grailsinaction.PostRestControllerSpec.POST a single post as JSON(PostRestControllerSpec.groovy:75)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix error grid_8 alpha omega" data-name="POST a single post as XML">
+<div class="grid_3 alpha">
+<p>
+<span class="icon error"></span><b class="testname message error">POST a single post as XML</b>
+</p>
+<p class="summary">Executed in 0.157 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">No such property: springSecurityService for class: com.grailsinaction.PostRestController</b>
+</p>
+<pre>groovy.lang.MissingPropertyException: No such property: springSecurityService for class: com.grailsinaction.PostRestController
+	at com.grailsinaction.PostRestControllerSpec.POST a single post as XML(PostRestControllerSpec.groovy:100)
+</pre>
+</div>
+</div>
 <div class="clear"></div>
 </div>
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from Anonymous access to home page--
---Output from Anonymous access to restricted page--
+<pre class="stdout">--Output from GET a list of posts as JSON--
+--Output from GET a list of posts as XML--
+--Output from GET a single post as XML--
+--Output from POST a single post as JSON--
+--Output from POST a single post as XML--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from Anonymous access to home page--
---Output from Anonymous access to restricted page--
+<pre class="syserr">--Output from GET a list of posts as JSON--
+--Output from GET a list of posts as XML--
+--Output from GET a single post as XML--
+--Output from POST a single post as JSON--
+--Output from POST a single post as XML--
 </pre>
 </div>
 </div>

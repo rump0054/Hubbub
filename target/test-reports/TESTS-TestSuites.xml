@@ -1,18 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="TOSHIBA" id="0" name="AccessControlFunctionalSpec" package="com.grailsinaction" tests="2" time="15.299" timestamp="2015-03-25T17:22:50">
+  <testsuite errors="5" failures="0" hostname="TOSHIBA" id="0" name="PostRestControllerSpec" package="com.grailsinaction" tests="5" time="5.218" timestamp="2015-03-25T20:31:14">
       <properties />
 
-      <testcase classname="com.grailsinaction.AccessControlFunctionalSpec" name="Anonymous access to home page" time="10.85" />
+      <testcase classname="com.grailsinaction.PostRestControllerSpec" name="GET a list of posts as JSON" time="4.162">
+          <error message="Error parsing JSON" type="org.codehaus.groovy.grails.web.converters.exceptions.ConverterException">org.codehaus.groovy.grails.web.converters.exceptions.ConverterException: Error parsing JSON
+	at grails.converters.JSON.parse(JSON.java:292)
+	at com.grailsinaction.PostRestControllerSpec.GET a list of posts as JSON(PostRestControllerSpec.groovy:31)
+Caused by: org.codehaus.groovy.grails.web.json.JSONException: Missing value. at character 0 of 
+	at grails.converters.JSON.parse(JSON.java:283)
+</error>
 
-      <testcase classname="com.grailsinaction.AccessControlFunctionalSpec" name="Anonymous access to restricted page" time="4.445" />
+      </testcase>
 
-      <system-out><![CDATA[--Output from Anonymous access to home page--
---Output from Anonymous access to restricted page--
+      <testcase classname="com.grailsinaction.PostRestControllerSpec" name="GET a list of posts as XML" time="0.201">
+          <error message="Premature end of file." type="org.xml.sax.SAXParseException">org.xml.sax.SAXParseException: Premature end of file.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at com.grailsinaction.PostRestControllerSpec.GET a list of posts as XML(PostRestControllerSpec.groovy:47)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.grailsinaction.PostRestControllerSpec" name="GET a single post as XML" time="0.244">
+          <error message="No signature of method: com.grailsinaction.PostRestController.show() is applicable for argument types: (java.lang.Integer, java.lang.String) values: [1, 1]&#xa;Possible solutions: wait(), find(), grep(), any(), dump(), raw(java.lang.Object)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.grailsinaction.PostRestController.show() is applicable for argument types: (java.lang.Integer, java.lang.String) values: [1, 1]
+Possible solutions: wait(), find(), grep(), any(), dump(), raw(java.lang.Object)
+	at com.grailsinaction.PostRestControllerSpec.GET a single post as XML(PostRestControllerSpec.groovy:60)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.grailsinaction.PostRestControllerSpec" name="POST a single post as JSON" time="0.411">
+          <error message="No such property: springSecurityService for class: com.grailsinaction.PostRestController" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: springSecurityService for class: com.grailsinaction.PostRestController
+	at com.grailsinaction.PostRestControllerSpec.POST a single post as JSON(PostRestControllerSpec.groovy:75)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.grailsinaction.PostRestControllerSpec" name="POST a single post as XML" time="0.157">
+          <error message="No such property: springSecurityService for class: com.grailsinaction.PostRestController" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: springSecurityService for class: com.grailsinaction.PostRestController
+	at com.grailsinaction.PostRestControllerSpec.POST a single post as XML(PostRestControllerSpec.groovy:100)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from GET a list of posts as JSON--
+--Output from GET a list of posts as XML--
+--Output from GET a single post as XML--
+--Output from POST a single post as JSON--
+--Output from POST a single post as XML--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from Anonymous access to home page--
---Output from Anonymous access to restricted page--
+      <system-err><![CDATA[--Output from GET a list of posts as JSON--
+--Output from GET a list of posts as XML--
+--Output from GET a single post as XML--
+--Output from POST a single post as JSON--
+--Output from POST a single post as XML--
 ]]></system-err>
 
   </testsuite>
