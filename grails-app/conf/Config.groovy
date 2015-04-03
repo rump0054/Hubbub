@@ -175,6 +175,6 @@ grails.plugin.springsecurity.useBasicAuth = true
 grails.plugin.springsecurity.basic.realmName = 'Hubbub'
 
 grails.plugin.springsecurity.filterChain.chainMap = [
-  '/api/**': 'JOINED_FILTERS',
-  '/**': 'JOINED_FILTERS, -basicAuthenticationFilter, -basicExceptionTranslationFilter'
+    '/api/**': 'JOINED_FILTERS,-exceptionTranslationFilter,-authenticationProcessingFilter,-securityContextPersistenceFilter,-rememberMeAuthenticationFilter',  // Stateless chain
+    '/**': 'JOINED_FILTERS,-restTokenValidationFilter,-restExceptionTranslationFilter'                                                                          // Traditional chain
 ]
