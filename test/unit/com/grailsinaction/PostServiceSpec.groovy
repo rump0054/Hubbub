@@ -9,18 +9,11 @@ import grails.test.mixin.Mock
 @Mock([User,Post])
 class PostServiceSpec extends Specification {
 
-    def mockSecurityService
-
-    def setup() {
-        mockSecurityService = Mock(SpringSecurityService)
-        mockSecurityService.encodePassword(_ as String) >> "kjsdfhkshfalhlkdshflas"
-    }
-
     def "Valid posts get saved and added to the user"() {
 
         given: "A new user in the db"
-        User chuck = new User(loginId: "chuck_norris",
-                    passwordHash: mockSecurityService.encodePassword("highkick"))
+        User chuck = new User(loginId: "chuck_norris")
+        chuck.passwordHash = "ksadhfkasjdfh"
         chuck.save(failOnError: true)
 
         when: "a new post is created by the service"
@@ -35,8 +28,7 @@ class PostServiceSpec extends Specification {
     def "Invalid posts generate exceptional outcomes"() {
 
         given: "A new user in the db"
-        User chuck = new User(loginId: "chuck_norris",
-                    passwordHash: mockSecurityService.encodePassword("highkick"))
+        def chuck = new User(loginId: "chuck_norris")
         chuck.passwordHash = "ksadhfkasjdfh"
         chuck.save(failOnError: true)
 

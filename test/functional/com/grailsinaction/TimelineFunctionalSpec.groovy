@@ -27,7 +27,7 @@ class TimelineFunctionalSpec extends GebReportingSpec {
     }
 
     private login(String username, String password) {
-        go "auth/form"
+        go "login/form"
         $("input[name='j_username']").value(username)
         $("input[name='j_password']").value(password)
         $("input[type='submit']").click()

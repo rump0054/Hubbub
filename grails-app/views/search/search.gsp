@@ -9,9 +9,19 @@
         <g:form>
             <g:textField name="q" value="${params.q}"/>
             <g:select name="max" from="${[1, 5, 10, 50]}" value="${params.max ?: 10}" />
+            <g:if test="${session.user}">
+                Just My Stuff:
+                <g:checkBox name="justMine" value="${params.justMine}"/>
+            </g:if>
             <g:submitButton name="search" value="Search"/>
         </g:form>
         <hr/>
+        <g:if test="${searchResult?.suggestedQuery}">
+        <p>Did you mean
+        <g:link controller="search" action="search" params="[q: searchResult.suggestedQuery]">
+                ${StringQueryUtils.highlightTermDiffs(params.q.trim(), searchResult.suggestedQuery)}
+        </g:link>?
+        </g:if>
 
         <g:if test="${searchResult}">
         <hr/>
@@ -30,7 +40,6 @@
         </g:else>
         <p/>
         </g:if>
-
         
         <g:if test="${searchResult?.results}">
             <g:each var="result" in="${searchResult.results}" status="hitNum">
@@ -43,10 +52,11 @@
                         ...
                     </div>
                     <div class="searchContent">
-                        ${raw(searchResult.highlights[hitNum])}
+                        ${searchResult.highlights[hitNum]}
                     </div>
                 </div>
             </g:each>
         </g:if>
     </body>
 </html>
+

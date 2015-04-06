@@ -12,13 +12,13 @@ grails.project.fork = [
     //  compile: [maxMemory: 256, minMemory: 64, debug: false, maxPerm: 256, daemon:true],
 
     // configure settings for the test-app JVM, uses the daemon by default
-    test: [maxMemory: 1024, minMemory: 64, debug: false, maxPerm: 256, daemon:true],
+    test: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, daemon:true],
     // configure settings for the run-app JVM
-    run: [maxMemory: 1024, minMemory: 64, debug: false, maxPerm: 256, forkReserve:false],
+    run: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, forkReserve:false],
     // configure settings for the run-war JVM
-    war: [maxMemory: 1024, minMemory: 64, debug: false, maxPerm: 256, forkReserve:false],
+    war: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256, forkReserve:false],
     // configure settings for the Console UI JVM
-    console: [maxMemory: 1024, minMemory: 64, debug: false, maxPerm: 256]
+    console: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256]
 ]
 
 grails.project.dependency.resolver = "maven" // or ivy
@@ -40,62 +40,58 @@ grails.project.dependency.resolution = {
         mavenLocal()
         grailsCentral()
         mavenCentral()
+
+        // For the Searchable plugin's 'compass' dependency
         mavenRepo "http://repo.grails.org/grails/core"
+        mavenRepo "http://repo.spring.io/milestone/"
+
         // uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
     }
 
-    def gebVersion = '0.9.2'
-    def seleniumVersion = '2.45.0' //'2.41.0'
+    def gebVersion = "0.9.2"
+    def seleniumVersion = "2.41.0"
 
     dependencies {
-        // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
-        // runtime 'mysql:mysql-connector-java:5.1.27'
-        // runtime 'org.postgresql:postgresql:9.3-1100-jdbc41'
+        compile "org.apache.lucene:lucene-spellchecker:2.4.1"
 
         test "org.gebish:geb-spock:$gebVersion"
+        test "com.github.groovy-wslite:groovy-wslite:0.7.2"
 
         test "org.seleniumhq.selenium:selenium-support:$seleniumVersion"
         test "org.seleniumhq.selenium:selenium-firefox-driver:$seleniumVersion"
+//        test "org.seleniumhq.selenium:selenium-htmlunit-driver:$seleniumVersion", {
+//            exclude "xml-apis"
+//        }
+//        test "org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion"
     }
 
     plugins {
         // plugins for the build system only
-        build ":tomcat:7.0.52.1"
+        build ":tomcat:7.0.47"
 
         // plugins for the compile step
-        compile ":scaffolding:2.0.2"
-        compile ':cache:1.1.1'
-        compile ":fields:1.4"
+        compile ":scaffolding:2.0.1"
         compile ":mail:1.0.1"
-        compile ":searchable:0.6.9"
-        compile ":console:1.5.4"
-        compile ":spring-security-core:2.0-RC4"
-        compile ":spring-security-ui:1.0-RC2"
-        compile ":jquery-ui:1.10.4"
-        compile ":famfamfam:1.0.1"
+        compile ':cache:1.1.1', ":cache-ehcache:1.0.1"
+        compile ":searchable:0.6.6"
+
+        compile ":spring-security-core:2.0-RC2", ":spring-security-ui:1.0-RC1"
+        compile ":spring-security-twitter:0.6.2"
 
         // plugins needed at runtime but not for compilation
-        runtime ":hibernate:3.6.10.9" // or ":hibernate4:4.3.4"
+        runtime ":hibernate:3.6.10.6" // or ":hibernate4:4.1.11.6"
         runtime ":database-migration:1.3.8"
-        runtime ":jquery:1.11.0.2"
-        runtime ":resources:1.2.7"
-        runtime ":navigation:1.3.2"
+        runtime ":jquery:1.10.2.2"
+        runtime ":resources:1.2.1"
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0.1"
         //runtime ":cached-resources:1.1"
         //runtime ":yui-minify-resources:0.1.5"
 
-        // An alternative to the default resources plugin is the asset-pipeline plugin
-        //compile ":asset-pipeline:1.6.1"
-
-        // Uncomment these to enable additional asset-pipeline capabilities
-        //compile ":sass-asset-pipeline:1.5.5"
-        //compile ":less-asset-pipeline:1.5.3"
-        //compile ":coffee-asset-pipeline:1.5.0"
-        //compile ":handlebars-asset-pipeline:1.3.0.1"
+        runtime ":navigation:1.3.2"
 
         test ":geb:$gebVersion"
         test ":dumbster:0.2"

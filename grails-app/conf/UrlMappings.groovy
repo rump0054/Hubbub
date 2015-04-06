@@ -1,37 +1,35 @@
 class UrlMappings {
 
-  static mappings = {
-    "/$controller/$action?/$id?(.${format})?"{
-        constraints {
-            // apply constraints here
+    static mappings = {
+        "/$controller/$action?/$id?(.${format})?"{
+            constraints {
+                // apply constraints here
+            }
         }
-    }
 
-    "/login/form" {
-      controller = "auth"
-      action = "form"
-    }
+        "/login/form"(controller: "auth", action: "form")
 
-    "/api/posts"(resources: "postRest")
+        "/timeline/chuck_norris" {
+            controller = "post"
+            action = "timeline"
+            id = "chuck_norris"
+        }
+        
+        "/timeline" {
+            controller = "post"
+            action = "personal"
+        }
 
-    "/timeline/chuck_norris" {
-        controller = "post"
-        action = "timeline"
-        id = "chuck_norris"
-    }
+        "/users/$id" {
+            controller = "post"
+            action = "timeline"
+        }
 
-    "/timeline" {
-        controller = "post"
-        action = "personal"
-    }
+        "/api/posts"(resources: "postRest")
 
-    "/users/$id" {
-        controller = "post"
-        action = "timeline"
-    }
+        "/"(view: "/index")
 
-    "/"(view:"/index")
         "500"(controller: "error", action: "internalServer")
         "404"(controller: "error", action: "notFound")
-  }
+    }
 }

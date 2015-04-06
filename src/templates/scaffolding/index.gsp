@@ -25,7 +25,7 @@
 					<tr>
 					<%  excludedProps = Event.allEvents.toList() << 'id' << 'version'
 						allowedNames = domainClass.persistentProperties*.name << 'dateCreated' << 'lastUpdated'
-						props = domainClass.properties.findAll { allowedNames.contains(it.name) && !excludedProps.contains(it.name) && it.type != null && !Collection.isAssignableFrom(it.type) && (domainClass.constrainedProperties[it.name] ? domainClass.constrainedProperties[it.name].display : true) }
+						props = domainClass.properties.findAll { allowedNames.contains(it.name) && !excludedProps.contains(it.name) && it.type != null && !Collection.isAssignableFrom(it.type) }
 						Collections.sort(props, comparator.constructors[0].newInstance([domainClass] as Object[]))
 						props.eachWithIndex { p, i ->
 							if (i < 6) {
@@ -47,8 +47,8 @@
 						<td><g:formatBoolean boolean="\${${propertyName}.${p.name}}" /></td>
 					<%          } else if (p.type == Date || p.type == java.sql.Date || p.type == java.sql.Time || p.type == Calendar) { %>
 						<td><g:formatDate date="\${${propertyName}.${p.name}}" /></td>
-					<%					} else if (p.manyToOne || p.oneToOne) { %>
-					<td>\${${propertyName}?.${p.name}?.displayString?.encodeAsHTML()}</td>
+					<%          } else if (p.manyToOne || p.oneToOne) { %>
+						<td>\${${propertyName}?.${p.name}?.displayString?.encodeAsHTML()}</td>
 					<%          } else { %>
 						<td>\${fieldValue(bean: ${propertyName}, field: "${p.name}")}</td>
 					<%  }   }   } %>

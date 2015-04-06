@@ -2,14 +2,6 @@
 <head>
   <title>Search Results</title>
   <meta name="layout" content="main"/>
-  <style>
-    ul {
-      padding: 1em;
-    }
-    h1 {
-      margin: 0;
-    }
-  </style>
 </head>
 <body>
   <h1>Results</h1>

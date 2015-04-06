@@ -10,18 +10,8 @@ import spock.lang.Specification
 @Mock([User,Post])
 class PostRestControllerSpec extends Specification {
 
-  def mockSecurityService
-
     void setup() {
         JSON.createNamedConfig("v1") { cfg -> }
-        mockSecurityService = Mock(SpringSecurityService)
-        mockSecurityService.encodePassword(_ as String) >> "kjsdfhkshfalhlkdshflas"
-    }
-
-    void setupSpec() {
-      defineBeans {
-        springSecurityService(SpringSecurityService)
-      }
     }
 
     void "GET a list of posts as JSON"() {
@@ -131,3 +121,4 @@ class PostRestControllerSpec extends Specification {
         return chuck.loginId
     }
 }
+
