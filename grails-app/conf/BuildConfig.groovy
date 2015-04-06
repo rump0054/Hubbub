@@ -52,7 +52,7 @@ grails.project.dependency.resolution = {
     }
 
     def gebVersion = "0.9.2"
-    def seleniumVersion = "2.41.0"
+    def seleniumVersion = "2.45.0"
 
     dependencies {
         compile "org.apache.lucene:lucene-spellchecker:2.4.1"
