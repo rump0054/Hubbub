@@ -15,13 +15,24 @@ class PostService {
         if (user) {
             def post = new Post(content: content)
             user.addToPosts(post)
-            if (post.validate() && user.save()) {
-                return post
-            } else {
-                throw new PostException(
-                    message: "Invalid or empty post", post: post)
+            if (!post.validate() || !user.save(flush: true)) {
+                throw new PostException(message: "Invalid or empty post", post: post)
             }
+
+            def m = content =~ /@(\w+)/
+            if (m) {
+                def targetUser = User.findByLoginId(m[0][1])
+                if (targetUser) {
+                    new Reply(post: post, inReplyTo: targetUser).save()
+                }
+                else {
+                    throw new PostException(message: "Reply-to user not found", post: post)
+                }
+            }
+
+            return post
         }
+
         throw new PostException(message: "Invalid User Id")
     }
 

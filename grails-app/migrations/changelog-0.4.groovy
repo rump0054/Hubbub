@@ -101,4 +101,24 @@ databaseChangeLog = {
 
         // TODO Migrate plain text passwords to SHA256 encoded ones.
     }
+
+    changeSet(author: "Peter", id: "Reply changes") {
+        createTable(tableName: "REPLY") {
+            column(autoIncrement: "true", name: "ID", type: "BIGINT") {
+                constraints(nullable: "false", primaryKey: "true", primaryKeyName: "CONSTRAINT_27")
+            }
+
+            column(name: "VERSION", type: "BIGINT") {
+                constraints(nullable: "false")
+            }
+
+            column(name: "POST_ID", type: "BIGINT") {
+                constraints(nullable: "false")
+            }
+
+            column(name: "IN_REPLY_TO_ID", type: "BIGINT") {
+                constraints(nullable: "false")
+            }
+        }
+    }
 }
