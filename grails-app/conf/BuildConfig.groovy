@@ -56,6 +56,9 @@ grails.project.dependency.resolution = {
 
     dependencies {
         compile "org.apache.lucene:lucene-spellchecker:2.4.1"
+        compile "org.apache.activemq:activemq-core:5.7.0", {
+            exclude "spring-context"
+        }
 
         test "org.gebish:geb-spock:$gebVersion"
         test "com.github.groovy-wslite:groovy-wslite:0.7.2"
@@ -77,6 +80,10 @@ grails.project.dependency.resolution = {
         compile ":mail:1.0.1"
         compile ':cache:1.1.1', ":cache-ehcache:1.0.1"
         compile ":searchable:0.6.6"
+        compile ":jms:1.3"
+        compile ":quartz:1.0.2"
+
+        compile ":platform-core:1.0.0"
 
         compile ":spring-security-core:2.0-RC2", ":spring-security-ui:1.0-RC1"
         compile ":spring-security-twitter:0.6.2"

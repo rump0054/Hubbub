@@ -32,8 +32,7 @@ class PostService {
 
             return post
         }
-
+        
         throw new PostException(message: "Invalid User Id")
     }
-
 }
